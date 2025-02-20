@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "ruiliw5.github.io"
+  title: "Ruilin Wu"
   navbar:
     left:
       - href: index.qmd
