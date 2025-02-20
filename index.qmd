@@ -1,11 +1,16 @@
 ---
-title: "ruiliw5.github.io"
+title: "Ruilin Wu"
+image: media/headshot.JPEG
+toc: false
+about: 
+  template: jolla
+  image-shape: round
+  image-width: 17em
+  links: 
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/ruilin-wu/
+    - text: GitHub
+      href: https://github.com/ruiliw5/coding-project 
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+Hi, I'm Ruilin Wu! I'm an undergraduate student at University of California Irvine, majoring in Data Science with a minor in Mathematics.
