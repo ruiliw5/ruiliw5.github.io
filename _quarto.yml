@@ -9,7 +9,7 @@ website:
       - href: index.qmd
         text: Home
       - href: projects.qmd
-        text: Projects
+        text: Projects 
       - href: media/resume.pdf
         text: Resume
       - about.qmd 
