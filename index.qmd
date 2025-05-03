@@ -13,4 +13,4 @@ about:
       href: https://github.com/ruiliw5/coding-project 
 ---
 
-Hi, I'm Ruilin Wu! I'm an undergraduate student at University of California Irvine, majoring in Data Science with a minor in Mathematics.
+Hi, I'm Ruilin Wu! I'm an undergraduate student at University of California Irvine, majoring in Data Science with a minor in Informatics.
