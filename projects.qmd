@@ -1,3 +1,24 @@
 ---
 title: "Projects"
 ---
+
+## Project 1
+Capstone Project – Delayed Antibiotics Administration
+
+I am mainly responsible for all website operations and the preparation of texts and slides, and do EDA and brainstorming with my team.
+
+[Visit project site](https://sites.google.com/uci.edu/2025stats170a-group9-site/home?authuser=0)
+
+## Project 2
+Breast Cancer Recurrence Prediction
+
+This project explores factors influencing breast cancer recurrence using Bayesian Logistics modeling and predictive analytics.
+
+[Read detailed report](media/Breast_Cancer_Recurrence_Prediction.md)
+
+## Project 3
+Dolendar System Requirements
+
+This project is a comprehensive report developed to address the client's specific needs and requirements.
+
+[View full report](media/Dolendar_System_Requirements.md)
