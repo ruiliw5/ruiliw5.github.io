@@ -10,7 +10,7 @@ about:
     - text: LinkedIn
       href: https://www.linkedin.com/in/ruilin-wu/
     - text: GitHub
-      href: https://github.com/ruiliw5/coding-project 
+      href: https://github.com/ruiliw5/coding-project/tree/Project-1 
 ---
 
 Hi, I'm Ruilin Wu! I'm a third-year student at University of California Irvine, majoring in Data Science with a minor in Informatics.
