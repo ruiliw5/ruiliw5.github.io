@@ -24,7 +24,8 @@ This project investigates key factors associated with publication output in comp
 Began by processing and preparing the data, including thorough data cleaning, wrangling, and mining. Then gathered and organized open-source data in JSON format from NSF and NIH, enabling a deeper analysis of how various factors impact the number of conference publications.
 
 [View data processing and cleaning report](media/Stats170A_a1.md)
-[View finalized data report](media/Stats170A_a1.md)
+
+[View finalized data report](media/Stats170A_a2.md)
 
 ## Project 4
 Dolendar System Requirements

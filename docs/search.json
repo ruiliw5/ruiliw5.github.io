@@ -46,7 +46,7 @@
     "href": "projects.html#project-3",
     "title": "Projects",
     "section": "Project 3",
-    "text": "Project 3\nAnalyzing Related Factors to Computer Science Conferences Publications\nThis project investigates key factors associated with publication output in computer science conferences.\nBegan by processing and preparing the data, including thorough data cleaning, wrangling, and mining. Then gathered and organized open-source data in JSON format from NSF and NIH, enabling a deeper analysis of how various factors impact the number of conference publications.\nView data processing and cleaning report View finalized data report"
+    "text": "Project 3\nAnalyzing Related Factors to Computer Science Conferences Publications\nThis project investigates key factors associated with publication output in computer science conferences.\nBegan by processing and preparing the data, including thorough data cleaning, wrangling, and mining. Then gathered and organized open-source data in JSON format from NSF and NIH, enabling a deeper analysis of how various factors impact the number of conference publications.\nView data processing and cleaning report\nView finalized data report"
   },
   {
     "objectID": "index.html",
