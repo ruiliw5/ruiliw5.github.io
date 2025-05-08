@@ -10,7 +10,7 @@ website:
         text: Home
       - href: projects.qmd
         text: Projects 
-      - href: media/Resume.pdf
+      - href: media/resume.pdf
         text: Resume
       - about.qmd 
 
