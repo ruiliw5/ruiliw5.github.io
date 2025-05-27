@@ -117,5 +117,19 @@
     "title": "Data Processing",
     "section": "",
     "text": "Task 4.1\nSQL Query:\nSELECT\ng.name AS author,\ng.dept AS institution,\nSUM(g.count) AS a_star_publication\nFROM generated_author_info_clean AS g\nJOIN conference_ranking AS c\nON LOWER(g.area) = LOWER(c.Antonym)\nWHERE c.Rank = ‘A*’\nAND g.year BETWEEN 2010 AND 2024\nGROUP BY g.name, g.dept\nORDER BY a_star_publication DESC, author ASC, institution ASC\nLIMIT 100;\nOutput:\nFrom the above SQL statement, we have generated top 100 authors. The following screenshot displays the top 10 of them.\n\n\n\n\n\n\n\n\n\nSQL Query:\nWITH RankedInstitutions AS (\nSELECT\nCOALESCE(fc.field, ‘Unknown Field’) AS cs_field,\ng.dept AS institution_name,\nCOUNT(*) AS a_star_publications,\nRANK() OVER (\nPARTITION BY COALESCE(fc.field, ‘Unknown Field’)\nORDER BY COUNT(*) DESC, g.dept ASC\n) AS rank_position\nFROM generated_author_info_clean g\nJOIN conference_ranking c\nON LOWER(g.area) = LOWER(c.Antonym)\nLEFT JOIN field_conference fc\nON LOWER(g.area) LIKE ‘%’ || LOWER(fc.conference) || ‘%’ – Substring matching\nWHERE c.Rank = ‘A*’\nGROUP BY COALESCE(fc.field, ‘Unknown Field’), g.dept\n)\nSELECT\ncs_field,\ninstitution_name,\na_star_publications\nFROM RankedInstitutions\nWHERE rank_position &lt;= 10\nORDER BY cs_field ASC, a_star_publications DESC, institution_name ASC;\nOutput: From the above SQL statement, we have generated top 10 institutions in each field. The total number of fields is 17."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "research",
+    "section": "",
+    "text": "2025 UCI Undergraduate Research Symposium poster presentation finalist.\nTheme: Human Experience and Expression\nTitle: Examining the Impact of an AI-powered Writing Platform in Upper-division Engineering Courses\nPoster"
+  },
+  {
+    "objectID": "research.html#research",
+    "href": "research.html#research",
+    "title": "research",
+    "section": "",
+    "text": "2025 UCI Undergraduate Research Symposium poster presentation finalist.\nTheme: Human Experience and Expression\nTitle: Examining the Impact of an AI-powered Writing Platform in Upper-division Engineering Courses\nPoster"
   }
 ]

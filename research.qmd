@@ -1,3 +1,15 @@
 ---
 title: "research"
 ---
+
+## Research
+
+### Poster Presentation
+
+2025 UCI Undergraduate Research Symposium poster presentation finalist.
+
+Theme: Human Experience and Expression
+
+Title: Examining the Impact of an AI-powered Writing Platform in Upper-division Engineering Courses
+
+[Poster](media/Poster.pdf)
