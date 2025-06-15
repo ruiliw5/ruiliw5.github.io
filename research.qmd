@@ -12,3 +12,21 @@ Theme: Human Experience and Expression
 Title: Examining the Impact of an AI-powered Writing Platform in Upper-division Engineering Courses
 
 [Poster](media/Poster.pdf)
+
+### Research Experience
+
+Research Assistant, [UCI Digital Learning Lab](https://www.digitallearninglab.org/)
+
+Summer 2024 – Present
+
+Working under Dr. Mark Warschauer, I’ve contributed to multiple education-focused research projects at the intersection of learning science and AI.
+
+-   Papyrus AI Project (January, 2025 – Present):
+
+    -   Currently supporting research on an AI-powered writing support system designed to improve students’ writing skills and learning outcomes. My work involves data cleaning, exploratory analysis, and evaluating usage patterns across diverse student populations.
+
+-   Converse to Learn Project (June, 2024 – 2025):
+
+    -   Participated in data collection and annotation for a project exploring how conversational agents can enhance student engagement and learning in educational settings.
+
+This experience has deepened my understanding of educational technology, human-AI interaction, and quantitative research methods, while also giving me opportunities to collaborate across interdisciplinary teams.

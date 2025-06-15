@@ -32,42 +32,49 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Capstone Project – Delayed Antibiotics Administration\nI am mainly responsible for all website operations and the preparation of texts and slides, and do EDA and brainstorming with my team.\nVisit project site"
+    "text": "A Little Secret\nI built an interactive AI chatbot platform designed specifically for children in three age groups: Ages 5–7, 8–12, and 13+. The platform is powered by OpenAI’s ChatGPT API and enhanced with Retrieval-Augmented Generation (RAG) to deliver age-appropriate, context-aware responses.\nTo ensure safety and personalization, the chatbot asks for the child’s age and region at the start of the conversation. This allows it to tailor its responses based on developmental stage and local relevance—providing a more thoughtful and responsible AI experience for kids.\nVisit A Little Secret"
   },
   {
     "objectID": "projects.html#project-1",
     "href": "projects.html#project-1",
     "title": "Projects",
     "section": "",
-    "text": "Capstone Project – Delayed Antibiotics Administration\nI am mainly responsible for all website operations and the preparation of texts and slides, and do EDA and brainstorming with my team.\nVisit project site"
+    "text": "A Little Secret\nI built an interactive AI chatbot platform designed specifically for children in three age groups: Ages 5–7, 8–12, and 13+. The platform is powered by OpenAI’s ChatGPT API and enhanced with Retrieval-Augmented Generation (RAG) to deliver age-appropriate, context-aware responses.\nTo ensure safety and personalization, the chatbot asks for the child’s age and region at the start of the conversation. This allows it to tailor its responses based on developmental stage and local relevance—providing a more thoughtful and responsible AI experience for kids.\nVisit A Little Secret"
   },
   {
     "objectID": "projects.html#project-2",
     "href": "projects.html#project-2",
     "title": "Projects",
     "section": "Project 2",
-    "text": "Project 2\nBreast Cancer Recurrence Prediction\nThis project explores factors influencing breast cancer recurrence using Bayesian Logistics modeling and predictive analytics.\nRead detailed report"
+    "text": "Project 2\nCapstone Project – Delayed Antibiotics Administration\nI am mainly responsible for all website operations and the preparation of texts and slides, and do EDA and brainstorming with my team.\nVisit project site"
   },
   {
     "objectID": "projects.html#project-3",
     "href": "projects.html#project-3",
     "title": "Projects",
     "section": "Project 3",
-    "text": "Project 3\nAnalyzing Related Factors to Computer Science Conferences Publications\nThis project investigates key factors associated with publication output in computer science conferences.\nBegan by processing and preparing the data, including thorough data cleaning, wrangling, and mining. Then gathered and organized open-source data in JSON format from NSF and NIH, enabling a deeper analysis of how various factors impact the number of conference publications.\nView data processing and cleaning report\nView finalized data report"
+    "text": "Project 3\nBreast Cancer Recurrence Prediction\nThis project explores factors influencing breast cancer recurrence using Bayesian Logistics modeling and predictive analytics.\nView detailed report"
   },
   {
     "objectID": "projects.html#project-4",
     "href": "projects.html#project-4",
     "title": "Projects",
     "section": "Project 4",
-    "text": "Project 4\nDolendar System Requirements\nThis project involved developing a comprehensive report tailored to the client’s specific needs and requirements. After a focused two-hour consultation, I carefully synthesized the client’s input and compiled all key insights into a well-structured document.\nView full report"
+    "text": "Project 4\nAnalyzing Related Factors to Computer Science Conferences Publications\nThis project investigates key factors associated with publication output in computer science conferences.\nBegan by processing and preparing the data, including thorough data cleaning, wrangling, and mining. Then gathered and organized open-source data in JSON format from NSF and NIH, enabling a deeper analysis of how various factors impact the number of conference publications.\nView data processing and cleaning report\nView finalized data report"
+  },
+  {
+    "objectID": "projects.html#project-5",
+    "href": "projects.html#project-5",
+    "title": "Projects",
+    "section": "Project 5",
+    "text": "Project 5\nDolendar System Requirements\nThis project involved developing a comprehensive report tailored to the client’s specific needs and requirements. After a focused two-hour consultation, I carefully synthesized the client’s input and compiled all key insights into a well-structured document.\nView full report"
   },
   {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Poster Presentation\n2025 UCI Undergraduate Research Symposium poster presentation finalist.\nTheme: Human Experience and Expression\nTitle: Examining the Impact of an AI-powered Writing Platform in Upper-division Engineering Courses\nPoster"
+    "text": "Poster Presentation\n2025 UCI Undergraduate Research Symposium poster presentation finalist.\nTheme: Human Experience and Expression\nTitle: Examining the Impact of an AI-powered Writing Platform in Upper-division Engineering Courses\nPoster\n\n\nResearch Experience\nResearch Assistant, UCI Digital Learning Lab\nSummer 2024 – Present\nWorking under Dr. Mark Warschauer, I’ve contributed to multiple education-focused research projects at the intersection of learning science and AI.\n\nPapyrus AI Project (January, 2025 – Present):\n\nCurrently supporting research on an AI-powered writing support system designed to improve students’ writing skills and learning outcomes. My work involves data cleaning, exploratory analysis, and evaluating usage patterns across diverse student populations.\n\nConverse to Learn Project (June, 2024 – 2025):\n\nParticipated in data collection and annotation for a project exploring how conversational agents can enhance student engagement and learning in educational settings.\n\n\nThis experience has deepened my understanding of educational technology, human-AI interaction, and quantitative research methods, while also giving me opportunities to collaborate across interdisciplinary teams."
   },
   {
     "objectID": "index.html",

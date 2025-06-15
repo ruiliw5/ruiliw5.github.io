@@ -4,21 +4,31 @@ title: "Projects"
 
 ## Project 1
 
+**A Little Secret**
+
+I built an interactive AI chatbot platform designed specifically for children in three age groups: **Ages 5–7**, **8–12**, and **13+**. The platform is powered by **OpenAI’s ChatGPT API** and enhanced with **Retrieval-Augmented Generation (RAG)** to deliver age-appropriate, context-aware responses.
+
+To ensure safety and personalization, the chatbot asks for the child's **age and region** at the start of the conversation. This allows it to tailor its responses based on developmental stage and local relevance—providing a more thoughtful and responsible AI experience for kids.
+
+[Visit A Little Secret](https://udify.app/chat/mWZA7pZ9UzqpC2s2)
+
+## Project 2
+
 **Capstone Project – Delayed Antibiotics Administration**
 
 I am mainly responsible for all website operations and the preparation of texts and slides, and do EDA and brainstorming with my team.
 
 [Visit project site](https://sites.google.com/uci.edu/2025stats170a-group9-site/home?authuser=0)
 
-## Project 2
+## Project 3
 
 **Breast Cancer Recurrence Prediction**
 
 This project explores factors influencing breast cancer recurrence using Bayesian Logistics modeling and predictive analytics.
 
-[Read detailed report](media/Breast_Cancer_Recurrence_Prediction.md)
+[View detailed report](media/Breast_Cancer_Recurrence_Prediction.md)
 
-## Project 3
+## Project 4
 
 **Analyzing Related Factors to Computer Science Conferences Publications**
 
@@ -30,7 +40,7 @@ Began by processing and preparing the data, including thorough data cleaning, wr
 
 [View finalized data report](media/Stats170A_a2.md)
 
-## Project 4
+## Project 5
 
 **Dolendar System Requirements**
 
