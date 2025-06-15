@@ -16,7 +16,21 @@ To ensure safety and personalization, the chatbot asks for the child's **age and
 
 **Capstone Project – Delayed Antibiotics Administration**
 
-I am mainly responsible for all website operations and the preparation of texts and slides, and do EDA and brainstorming with my team.
+**Collaboration:** Children's Hospital of Orange County (CHOC)
+
+**Duration:** January 2025 – June 2025
+
+Collaborated with CHOC to develop a data-driven predictive model identifying and classifying the severity of delayed antibiotic administration in pediatric patients. The goal was to assist clinicians in proactive intervention, improving patient outcomes and hospital efficiency.
+
+**My Contribution:**
+
+-   **Data Engineering:** Engineered an ETL pipeline to consolidate and clean pediatric antibiotic data, foundational for robust feature engineering and predictive modeling.
+
+-   **Model Development:** Led the development and optimization of a Random Forest model to classify delay severity. Performed hyperparameter tuning, feature analysis, and benchmarked against other statistical models.
+
+-   **Evaluation & Communication:** Conducted rigorous model evaluation using ROC curves and confusion matrices, effectively communicating performance and insights.
+
+-   **Collaboration & Management:** Collaborated closely with clinical stakeholders for requirements and validation; managed project codebase and documentation on GitHub for team collaboration.
 
 [Visit project site](https://sites.google.com/uci.edu/2025stats170a-group9-site/home?authuser=0)
 

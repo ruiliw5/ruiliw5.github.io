@@ -46,7 +46,7 @@
     "href": "projects.html#project-2",
     "title": "Projects",
     "section": "Project 2",
-    "text": "Project 2\nCapstone Project – Delayed Antibiotics Administration\nI am mainly responsible for all website operations and the preparation of texts and slides, and do EDA and brainstorming with my team.\nVisit project site"
+    "text": "Project 2\nCapstone Project – Delayed Antibiotics Administration\nCollaboration: Children’s Hospital of Orange County (CHOC)\nDuration: January 2025 – June 2025\nCollaborated with CHOC to develop a data-driven predictive model identifying and classifying the severity of delayed antibiotic administration in pediatric patients. The goal was to assist clinicians in proactive intervention, improving patient outcomes and hospital efficiency.\nMy Contribution:\n\nData Engineering: Engineered an ETL pipeline to consolidate and clean pediatric antibiotic data, foundational for robust feature engineering and predictive modeling.\nModel Development: Led the development and optimization of a Random Forest model to classify delay severity. Performed hyperparameter tuning, feature analysis, and benchmarked against other statistical models.\nEvaluation & Communication: Conducted rigorous model evaluation using ROC curves and confusion matrices, effectively communicating performance and insights.\nCollaboration & Management: Collaborated closely with clinical stakeholders for requirements and validation; managed project codebase and documentation on GitHub for team collaboration.\n\nVisit project site"
   },
   {
     "objectID": "projects.html#project-3",
