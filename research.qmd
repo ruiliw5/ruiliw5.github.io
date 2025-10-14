@@ -5,13 +5,35 @@ format: html
 
 ### Poster Presentation
 
-2025 UCI Undergraduate Research Symposium poster presentation finalist.
+1.  2025 AAAS S-STEM Scholars Meeting at San Diego, CA, United States
 
-Theme: Human Experience and Expression
+    Theme: Social Science
 
-Title: Examining the Impact of an AI-powered Writing Platform in Upper-division Engineering Courses
+    Title: Examining the Impact of an AI-powered Writing Platform in Upper-division Engineering Courses
 
-[Poster](media/Poster.pdf)
+    [Poster](media/poster2.pdf)
+
+    Expanded analysis across multiple quarters:
+
+    -   Quantity of AI interactions is a modest predictor
+
+    -   Instructional context and module design matter more
+
+    -   Planning and revision modules are consistent student needs
+
+2.  2025 UCI Undergraduate Research Symposium poster presentation finalist.
+
+    Theme: Human Experience and Expression
+
+    Title: Examining the Impact of an AI-powered Writing Platform in Upper-division Engineering Courses
+
+    [Poster](media/Poster.pdf)
+
+    Initial finding from Spring 2024 data:
+
+    -   High-performing students engaged with the AI more frequently and used concise language.
+
+    -   Lower-performing students interacted less often but supplied longer, more elaborate inputs per conversation on average.
 
 ### Research Experience
 
