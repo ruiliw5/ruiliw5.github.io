@@ -11,8 +11,6 @@ format: html
 
     Title: Examining the Impact of an AI-powered Writing Platform in Upper-division Engineering Courses
 
-    [Poster](media/poster2.pdf)
-
     Expanded analysis across multiple quarters:
 
     -   Quantity of AI interactions is a modest predictor
