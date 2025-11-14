@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -93,16 +93,12 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./projects.html" aria-current="page"> 
-<span class="menu-text">Projects</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link active" href="./projects.html" aria-current="page"> 
+<span class="menu-text">Projects</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -115,19 +111,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#project-1" id="toc-project-1" class="nav-link active" data-scroll-target="#project-1">Project 1</a></li>
-  <li><a href="#project-2" id="toc-project-2" class="nav-link" data-scroll-target="#project-2">Project 2</a></li>
-  <li><a href="#project-3" id="toc-project-3" class="nav-link" data-scroll-target="#project-3">Project 3</a></li>
-  <li><a href="#project-4" id="toc-project-4" class="nav-link" data-scroll-target="#project-4">Project 4</a></li>
-  <li><a href="#project-5" id="toc-project-5" class="nav-link" data-scroll-target="#project-5">Project 5</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -150,47 +134,42 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="project-1" class="level2">
-<h2 class="anchored" data-anchor-id="project-1">Project 1</h2>
-<p><strong>A Little Secret</strong></p>
-<p>I built an interactive AI chatbot platform designed specifically for children in three age groups: <strong>Ages 5–7</strong>, <strong>8–12</strong>, and <strong>13+</strong>. The platform is powered by <strong>OpenAI’s ChatGPT API</strong> and enhanced with <strong>Retrieval-Augmented Generation (RAG)</strong> to deliver age-appropriate, context-aware responses.</p>
-<p>To ensure safety and personalization, the chatbot asks for the child’s <strong>age and region</strong> at the start of the conversation. This allows it to tailor its responses based on developmental stage and local relevance—providing a more thoughtful and responsible AI experience for kids.</p>
-<p><a href="https://udify.app/chat/mWZA7pZ9UzqpC2s2">Visit A Little Secret</a></p>
+<section id="age--and-context-appropriate-ai-chat-for-children" class="level3">
+<h3 class="anchored" data-anchor-id="age--and-context-appropriate-ai-chat-for-children">Age- and Context-Appropriate AI Chat for Children</h3>
+<p><strong>Overview:</strong> An interactive AI chatbot tailored to three developmental bands—<strong>ages 5–7</strong>, <strong>8–12</strong>, and <strong>13+</strong>—built with <strong>OpenAI ChatGPT API</strong> and <strong>Retrieval-Augmented Generation (RAG)</strong> for accurate, age-appropriate, context-aware replies.</p>
+<p><strong>How it works:</strong> - Collects <strong>age</strong> and <strong>region</strong> at conversation start to customize tone, vocabulary, and examples. - Uses RAG to ground responses in curated knowledge, improving safety and relevance. - Prioritizes responsible interaction patterns for kids.</p>
+<p>👉 <a href="https://udify.app/chat/mWZA7pZ9UzqpC2s2">Visit <em>A Little Secret</em></a></p>
+<hr>
 </section>
-<section id="project-2" class="level2">
-<h2 class="anchored" data-anchor-id="project-2">Project 2</h2>
-<p><strong>Capstone Project – Delayed Antibiotics Administration</strong></p>
-<p><strong>Collaboration:</strong> Children’s Hospital of Orange County (CHOC)</p>
-<p><strong>Duration:</strong> January 2025 – June 2025</p>
-<p>Collaborated with CHOC to develop a data-driven predictive model identifying and classifying the severity of delayed antibiotic administration in pediatric patients. The goal was to assist clinicians in proactive intervention, improving patient outcomes and hospital efficiency.</p>
-<p><strong>My Contribution:</strong></p>
-<ul>
-<li><p><strong>Data Engineering:</strong> Engineered an ETL pipeline to consolidate and clean pediatric antibiotic data, foundational for robust feature engineering and predictive modeling.</p></li>
-<li><p><strong>Model Development:</strong> Led the development and optimization of a Random Forest model to classify delay severity. Performed hyperparameter tuning, feature analysis, and benchmarked against other statistical models.</p></li>
-<li><p><strong>Evaluation &amp; Communication:</strong> Conducted rigorous model evaluation using ROC curves and confusion matrices, effectively communicating performance and insights.</p></li>
-<li><p><strong>Collaboration &amp; Management:</strong> Collaborated closely with clinical stakeholders for requirements and validation; managed project codebase and documentation on GitHub for team collaboration.</p></li>
-</ul>
-<p><a href="https://sites.google.com/uci.edu/2025stats170a-group9-site/home?authuser=0">Visit project site</a></p>
+<section id="capstone-project-delayed-antibiotics-administration" class="level3">
+<h3 class="anchored" data-anchor-id="capstone-project-delayed-antibiotics-administration">Capstone Project — Delayed Antibiotics Administration</h3>
+<p><strong>Partner:</strong> Children’s Hospital of Orange County (CHOC)<br>
+<strong>Duration:</strong> Jan 2025 – Jun 2025<br>
+<strong>Goal:</strong> Predict and classify the <strong>severity of delayed antibiotic administration</strong> to support proactive clinical intervention.</p>
+<p><strong>My contributions:</strong> - <strong>Data Engineering:</strong> Built an ETL pipeline to consolidate multi-source pediatric data; enabled reliable feature engineering and modeling. - <strong>Model Development:</strong> Led a <strong>Random Forest</strong> classifier; hyperparameter tuning, feature analysis, and baselines against alternative models. - <strong>Evaluation &amp; Communication:</strong> Assessed with <strong>ROC curves</strong> and <strong>confusion matrices</strong>; presented findings and implications to clinical stakeholders. - <strong>Collaboration &amp; Management:</strong> Translated clinician requirements, validated outputs, and maintained code/docs in GitHub.</p>
+<p>👉 <a href="https://sites.google.com/uci.edu/2025stats170a-group9-site/home?authuser=0">Project site</a></p>
+<hr>
 </section>
-<section id="project-3" class="level2">
-<h2 class="anchored" data-anchor-id="project-3">Project 3</h2>
-<p><strong>Breast Cancer Recurrence Prediction</strong></p>
-<p>This project explores factors influencing breast cancer recurrence using Bayesian Logistics modeling and predictive analytics.</p>
-<p><a href="./media/Breast_Cancer_Recurrence_Prediction.html">View detailed report</a></p>
+<section id="breast-cancer-recurrence-prediction" class="level3">
+<h3 class="anchored" data-anchor-id="breast-cancer-recurrence-prediction">Breast Cancer Recurrence Prediction</h3>
+<p><strong>Focus:</strong> Identify factors associated with recurrence using <strong>Bayesian logistic modeling</strong> and predictive analytics.<br>
+<strong>Outcome:</strong> Interpretable estimates with uncertainty quantification to inform clinical risk understanding.</p>
+<p>👉 <a href="./media/Breast_Cancer_Recurrence_Prediction.html">Detailed report</a></p>
+<hr>
 </section>
-<section id="project-4" class="level2">
-<h2 class="anchored" data-anchor-id="project-4">Project 4</h2>
-<p><strong>Analyzing Related Factors to Computer Science Conferences Publications</strong></p>
-<p>This project investigates key factors associated with publication output in computer science conferences.</p>
-<p>Began by processing and preparing the data, including thorough data cleaning, wrangling, and mining. Then gathered and organized open-source data in JSON format from NSF and NIH, enabling a deeper analysis of how various factors impact the number of conference publications.</p>
-<p><a href="./media/Stats170A_a1.html">View data processing and cleaning report</a></p>
-<p><a href="./media/Stats170A_a2.html">View finalized data report</a></p>
+<section id="factors-related-to-computer-science-conference-publications" class="level3">
+<h3 class="anchored" data-anchor-id="factors-related-to-computer-science-conference-publications">Factors Related to Computer Science Conference Publications</h3>
+<p><strong>Question:</strong> Which variables are associated with higher conference publication output?<br>
+<strong>Approach:</strong> - Extensive <strong>data cleaning/wrangling/mining</strong> on open-source datasets. - Aggregated JSON data from <strong>NSF</strong> and <strong>NIH</strong> to align funding/activity features with publication counts. - Built tidy, analysis-ready tables for modeling and comparison.</p>
+<p>👉 <a href="./media/Stats170A_a1.html">Data processing &amp; cleaning</a><br>
+👉 <a href="./media/Stats170A_a2.html">Final analysis report</a></p>
+<hr>
 </section>
-<section id="project-5" class="level2">
-<h2 class="anchored" data-anchor-id="project-5">Project 5</h2>
-<p><strong>Dolendar System Requirements</strong></p>
-<p>This project involved developing a comprehensive report tailored to the client’s specific needs and requirements. After a focused two-hour consultation, I carefully synthesized the client’s input and compiled all key insights into a well-structured document.</p>
-<p><a href="./media/Dolendar_System_Requirements.html">View full report</a></p>
+<section id="dolendar-system-requirements" class="level3">
+<h3 class="anchored" data-anchor-id="dolendar-system-requirements">Dolendar System Requirements</h3>
+<p><strong>Scope:</strong> Translated a 2-hour client consultation into a comprehensive, structured <strong>requirements document</strong>.<br>
+<strong>Deliverable:</strong> Clear user stories, functional/non-functional specs, constraints, and acceptance criteria to guide development.</p>
+<p>👉 <a href="./media/Dolendar_System_Requirements.html">Full report</a></p>
 
 
 </section>

@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -93,16 +93,12 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../projects.html"> 
-<span class="menu-text">Projects</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="../projects.html"> 
+<span class="menu-text">Projects</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -115,47 +111,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#data-processing" id="toc-data-processing" class="nav-link active" data-scroll-target="#data-processing">Data Processing</a>
-  <ul class="collapse">
-  <li><a href="#task-1-data-exploration-and-discovery" id="toc-task-1-data-exploration-and-discovery" class="nav-link" data-scroll-target="#task-1-data-exploration-and-discovery">Task 1 Data Exploration and Discovery</a></li>
-  <li><a href="#task-2-data-loading-and-transformation" id="toc-task-2-data-loading-and-transformation" class="nav-link" data-scroll-target="#task-2-data-loading-and-transformation">Task 2 Data Loading and Transformation</a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"><img src="data:image/png;base64,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" class="img-fluid"></a></li>
-  <li><a href="#task-3-data-cleaning" id="toc-task-3-data-cleaning" class="nav-link" data-scroll-target="#task-3-data-cleaning">Task 3 Data Cleaning</a></li>
-  <li><a href="#task-3.1" id="toc-task-3.1" class="nav-link" data-scroll-target="#task-3.1">Task 3.1</a>
-  <ul class="collapse">
-  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1"></a></li>
-  <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2"></a></li>
-  <li><a href="#task-3.2" id="toc-task-3.2" class="nav-link" data-scroll-target="#task-3.2">Task 3.2</a></li>
-  <li><a href="#section-3" id="toc-section-3" class="nav-link" data-scroll-target="#section-3"></a></li>
-  <li><a href="#section-4" id="toc-section-4" class="nav-link" data-scroll-target="#section-4"></a></li>
-  <li><a href="#section-5" id="toc-section-5" class="nav-link" data-scroll-target="#section-5"></a></li>
-  <li><a href="#section-6" id="toc-section-6" class="nav-link" data-scroll-target="#section-6"></a></li>
-  <li><a href="#section-7" id="toc-section-7" class="nav-link" data-scroll-target="#section-7"></a></li>
-  <li><a href="#section-8" id="toc-section-8" class="nav-link" data-scroll-target="#section-8"></a></li>
-  <li><a href="#section-9" id="toc-section-9" class="nav-link" data-scroll-target="#section-9"></a></li>
-  <li><a href="#section-10" id="toc-section-10" class="nav-link" data-scroll-target="#section-10"></a></li>
-  <li><a href="#task-3.3" id="toc-task-3.3" class="nav-link" data-scroll-target="#task-3.3">Task 3.3</a></li>
-  <li><a href="#task-3.4" id="toc-task-3.4" class="nav-link" data-scroll-target="#task-3.4">Task 3.4</a></li>
-  <li><a href="#task-3.5" id="toc-task-3.5" class="nav-link" data-scroll-target="#task-3.5">Task 3.5</a></li>
-  </ul></li>
-  <li><a href="#section-11" id="toc-section-11" class="nav-link" data-scroll-target="#section-11"></a></li>
-  <li><a href="#section-12" id="toc-section-12" class="nav-link" data-scroll-target="#section-12"></a></li>
-  <li><a href="#section-13" id="toc-section-13" class="nav-link" data-scroll-target="#section-13"></a></li>
-  <li><a href="#task-4-analysis" id="toc-task-4-analysis" class="nav-link" data-scroll-target="#task-4-analysis">Task 4 Analysis</a>
-  <ul class="collapse">
-  <li><a href="#section-14" id="toc-section-14" class="nav-link" data-scroll-target="#section-14"></a></li>
-  <li><a href="#section-15" id="toc-section-15" class="nav-link" data-scroll-target="#section-15"></a></li>
-  <li><a href="#task-4.2" id="toc-task-4.2" class="nav-link" data-scroll-target="#task-4.2">Task 4.2</a></li>
-  </ul></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 

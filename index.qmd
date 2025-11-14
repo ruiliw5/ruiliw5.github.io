@@ -2,15 +2,37 @@
 title: "Ruilin Wu"
 image: media/headshot.JPEG
 toc: false
+page-navigation: false
+page-layout: full
+
 about: 
-  template: jolla
-  image-shape: round
-  image-width: 17em
+  id: hero-heading 
+  template: trestles
+  image-width: 60%
   links: 
-    - text: LinkedIn
+    - icon: linkedin
+      text: LinkedIn
       href: https://www.linkedin.com/in/ruilin-wu/
-    - text: GitHub
+    - icon: github
+      text: GitHub
       href: https://github.com/ruiliw5/coding-project/tree/Project-1 
+    - icon: envelope
+      text: Email
+      href: ruiliw5@uci.edu  
 ---
 
-Hi, I'm Ruilin Wu! I'm a third-year student at University of California Irvine, majoring in Data Science with a minor in Informatics.
+:::{#hero-heading}
+
+## About 
+Hello! Hello! I’m a fourth-year Data Science major (Informatics minor) at the University of California, Irvine🎓. My work focuses on learning analytics, AI-supported writing, and equitable EdTech: I analyze multi-quarter course datasets and translate findings into clear, actionable insights for instructors and researchers, with an emphasis on transparency, reproducibility, and equity. 
+
+At UCI’s Digital Learning Lab, I've been involved in both Converse to Learn project and Generative AI project🤖. I’m also a [**CP-LEADS Fellow**](https://sites.uci.edu/cpleads/) and a [**PALiISaDS Scholar**](https://www.paliisads.org/), experiences that deepen my training in education-focused data science, and I serve as an HR Board Member for the Chinese Union at UCI, where I support event data analysis, operations, and student engagement🤝. My interests include Learning Analytics, Educational Data Science, NLP for Writing Support, and Data Visualization🔬.
+
+
+## Skills 
+<div class="badges">
+  <span>R</span><span>Python</span><span>Java</span>
+</div>
+
+
+:::

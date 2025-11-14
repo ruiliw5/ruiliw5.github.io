@@ -3,50 +3,40 @@ title: "Research"
 format: html
 ---
 
-### Poster Presentation
+### Poster Presentations
 
-1.  2025 AAAS S-STEM Scholars Meeting at San Diego, CA, United States
+**AAAS S-STEM Scholars Meeting** — San Diego, CA\
+**Dates:** October 2–4, 2025 · **Theme:** Social Science\
+**Title:** *Examining the Impact of an AI-Powered Writing Platform in Upper-Division Engineering Courses*\
+[View poster](media/poster2.pdf)
 
-    Theme: Social Science
+**Expanded analysis across multi-quarter:**
+-   Total AI interactions are a modest predictor of outcomes.\
+-   Instructional context and module design explain more variance.\
+-   Planning and revision modules are consistent student needs.
 
-    Title: Examining the Impact of an AI-powered Writing Platform in Upper-division Engineering Courses
+------------------------------------------------------------------------
 
-    Expanded analysis across multiple quarters:
+**UCI Undergraduate Research Symposium — Poster Finalist** — Irvine, CA\
+**Date:** June 16, 2025 · **Theme:** Human Experience and Expression\
+**Title:** *Examining the Impact of an AI-Powered Writing Platform in Upper-Division Engineering Courses*\
+[View poster](media/Poster.pdf)
 
-    -   Quantity of AI interactions is a modest predictor
+**Initial findings (Spring 2024 cohort):**
+-   Higher-performing students engaged more frequently and wrote more concisely.\
+-   Lower-performing students engaged less often but provided longer, more elaborate inputs per conversation.
 
-    -   Instructional context and module design matter more
-
-    -   Planning and revision modules are consistent student needs
-
-2.  2025 UCI Undergraduate Research Symposium poster presentation finalist.
-
-    Theme: Human Experience and Expression
-
-    Title: Examining the Impact of an AI-powered Writing Platform in Upper-division Engineering Courses
-
-    [Poster](media/Poster.pdf)
-
-    Initial finding from Spring 2024 data:
-
-    -   High-performing students engaged with the AI more frequently and used concise language.
-
-    -   Lower-performing students interacted less often but supplied longer, more elaborate inputs per conversation on average.
+------------------------------------------------------------------------
 
 ### Research Experience
 
-Research Assistant, [UCI Digital Learning Lab](https://www.digitallearninglab.org/)
+**Research Assistant,** [UCI Digital Learning Lab](https://www.digitallearninglab.org/) — *Summer 2024–Present*\
+Advisor: Dr. Mark Warschauer
 
-Summer 2024 – Present
+-   **PapyrusAI (Jan 2025–Present):**\
+    Data cleaning, exploratory analysis, and usage-pattern evaluation for an AI writing support system used across multiple course offerings and student populations.
 
-Working under Dr. Mark Warschauer, I’ve contributed to multiple education-focused research projects at the intersection of learning science and AI.
+-   **Converse to Learn (Jun 2024– Aug 2025):**\
+    Data collection and annotation for a study on how conversational agents shape student engagement and learning.
 
--   Papyrus AI Project (January, 2025 – Present):
-
-    -   Currently supporting research on an AI-powered writing support system designed to improve students’ writing skills and learning outcomes. My work involves data cleaning, exploratory analysis, and evaluating usage patterns across diverse student populations.
-
--   Converse to Learn Project (June, 2024 – 2025):
-
-    -   Participated in data collection and annotation for a project exploring how conversational agents can enhance student engagement and learning in educational settings.
-
-This experience has deepened my understanding of educational technology, human-AI interaction, and quantitative research methods, while also giving me opportunities to collaborate across interdisciplinary teams.
+**Impact:** Strengthened skills in educational data science, human–AI interaction, and quantitative research; collaborated with interdisciplinary teams to translate analyses into actionable insights for instruction and tool design.

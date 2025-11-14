@@ -2,62 +2,60 @@
 title: "Projects"
 ---
 
-## Project 1
+### Age- and Context-Appropriate AI Chat for Children
 
-**A Little Secret**
+**Overview:** An interactive AI chatbot tailored to three developmental bands—**ages 5–7**, **8–12**, and **13+**—built with **OpenAI ChatGPT API** and **Retrieval-Augmented Generation (RAG)** for accurate, age-appropriate, context-aware replies.
 
-I built an interactive AI chatbot platform designed specifically for children in three age groups: **Ages 5–7**, **8–12**, and **13+**. The platform is powered by **OpenAI’s ChatGPT API** and enhanced with **Retrieval-Augmented Generation (RAG)** to deliver age-appropriate, context-aware responses.
+**How it works:**
+- Collects **age** and **region** at conversation start to customize tone, vocabulary, and examples.
+- Uses RAG to ground responses in curated knowledge, improving safety and relevance.
+- Prioritizes responsible interaction patterns for kids.
 
-To ensure safety and personalization, the chatbot asks for the child's **age and region** at the start of the conversation. This allows it to tailor its responses based on developmental stage and local relevance—providing a more thoughtful and responsible AI experience for kids.
+👉 [Visit *A Little Secret*](https://udify.app/chat/mWZA7pZ9UzqpC2s2)
 
-[Visit A Little Secret](https://udify.app/chat/mWZA7pZ9UzqpC2s2)
+---
 
-## Project 2
+### Capstone Project — Delayed Antibiotics Administration
 
-**Capstone Project – Delayed Antibiotics Administration**
+**Partner:** Children’s Hospital of Orange County (CHOC)  
+**Duration:** Jan 2025 – Jun 2025  
+**Goal:** Predict and classify the **severity of delayed antibiotic administration** to support proactive clinical intervention.
 
-**Collaboration:** Children's Hospital of Orange County (CHOC)
+**My contributions:**
+- **Data Engineering:** Built an ETL pipeline to consolidate multi-source pediatric data; enabled reliable feature engineering and modeling.
+- **Model Development:** Led a **Random Forest** classifier; hyperparameter tuning, feature analysis, and baselines against alternative models.
+- **Evaluation & Communication:** Assessed with **ROC curves** and **confusion matrices**; presented findings and implications to clinical stakeholders.
+- **Collaboration & Management:** Translated clinician requirements, validated outputs, and maintained code/docs in GitHub.
 
-**Duration:** January 2025 – June 2025
+👉 [Project site](https://sites.google.com/uci.edu/2025stats170a-group9-site/home?authuser=0)
 
-Collaborated with CHOC to develop a data-driven predictive model identifying and classifying the severity of delayed antibiotic administration in pediatric patients. The goal was to assist clinicians in proactive intervention, improving patient outcomes and hospital efficiency.
+---
 
-**My Contribution:**
+### Breast Cancer Recurrence Prediction
 
--   **Data Engineering:** Engineered an ETL pipeline to consolidate and clean pediatric antibiotic data, foundational for robust feature engineering and predictive modeling.
+**Focus:** Identify factors associated with recurrence using **Bayesian logistic modeling** and predictive analytics.  
+**Outcome:** Interpretable estimates with uncertainty quantification to inform clinical risk understanding.
 
--   **Model Development:** Led the development and optimization of a Random Forest model to classify delay severity. Performed hyperparameter tuning, feature analysis, and benchmarked against other statistical models.
+👉 [Detailed report](media/Breast_Cancer_Recurrence_Prediction.md)
 
--   **Evaluation & Communication:** Conducted rigorous model evaluation using ROC curves and confusion matrices, effectively communicating performance and insights.
+---
 
--   **Collaboration & Management:** Collaborated closely with clinical stakeholders for requirements and validation; managed project codebase and documentation on GitHub for team collaboration.
+### Factors Related to Computer Science Conference Publications
 
-[Visit project site](https://sites.google.com/uci.edu/2025stats170a-group9-site/home?authuser=0)
+**Question:** Which variables are associated with higher conference publication output?  
+**Approach:**
+- Extensive **data cleaning/wrangling/mining** on open-source datasets.
+- Aggregated JSON data from **NSF** and **NIH** to align funding/activity features with publication counts.
+- Built tidy, analysis-ready tables for modeling and comparison.
 
-## Project 3
+👉 [Data processing & cleaning](media/Stats170A_a1.md)  
+👉 [Final analysis report](media/Stats170A_a2.md)
 
-**Breast Cancer Recurrence Prediction**
+---
 
-This project explores factors influencing breast cancer recurrence using Bayesian Logistics modeling and predictive analytics.
+### Dolendar System Requirements
 
-[View detailed report](media/Breast_Cancer_Recurrence_Prediction.md)
+**Scope:** Translated a 2-hour client consultation into a comprehensive, structured **requirements document**.  
+**Deliverable:** Clear user stories, functional/non-functional specs, constraints, and acceptance criteria to guide development.
 
-## Project 4
-
-**Analyzing Related Factors to Computer Science Conferences Publications**
-
-This project investigates key factors associated with publication output in computer science conferences.
-
-Began by processing and preparing the data, including thorough data cleaning, wrangling, and mining. Then gathered and organized open-source data in JSON format from NSF and NIH, enabling a deeper analysis of how various factors impact the number of conference publications.
-
-[View data processing and cleaning report](media/Stats170A_a1.md)
-
-[View finalized data report](media/Stats170A_a2.md)
-
-## Project 5
-
-**Dolendar System Requirements**
-
-This project involved developing a comprehensive report tailored to the client's specific needs and requirements. After a focused two-hour consultation, I carefully synthesized the client's input and compiled all key insights into a well-structured document.
-
-[View full report](media/Dolendar_System_Requirements.md)
+👉 [Full report](media/Dolendar_System_Requirements.md)

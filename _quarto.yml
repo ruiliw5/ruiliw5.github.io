@@ -5,19 +5,20 @@ project:
 website:
   title: "Ruilin Wu"
   navbar:
+    background: "#a7d8f0"
     left:
-      - href: index.qmd
-        text: Home
-      - href: projects.qmd
-        text: Projects 
-      - research.qmd
-      - about.qmd 
+      - text: Home
+        file: index.qmd
+      - text: Research
+        file: research.qmd
+      - text: Projects
+        file: projects.qmd
 
 format:
   html:
     theme: cosmo
     css: styles.css
-    toc: true
+    toc: false
 
-editor: visual
+
 

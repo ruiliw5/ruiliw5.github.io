@@ -32,56 +32,35 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "A Little Secret\nI built an interactive AI chatbot platform designed specifically for children in three age groups: Ages 5–7, 8–12, and 13+. The platform is powered by OpenAI’s ChatGPT API and enhanced with Retrieval-Augmented Generation (RAG) to deliver age-appropriate, context-aware responses.\nTo ensure safety and personalization, the chatbot asks for the child’s age and region at the start of the conversation. This allows it to tailor its responses based on developmental stage and local relevance—providing a more thoughtful and responsible AI experience for kids.\nVisit A Little Secret"
-  },
-  {
-    "objectID": "projects.html#project-1",
-    "href": "projects.html#project-1",
-    "title": "Projects",
-    "section": "",
-    "text": "A Little Secret\nI built an interactive AI chatbot platform designed specifically for children in three age groups: Ages 5–7, 8–12, and 13+. The platform is powered by OpenAI’s ChatGPT API and enhanced with Retrieval-Augmented Generation (RAG) to deliver age-appropriate, context-aware responses.\nTo ensure safety and personalization, the chatbot asks for the child’s age and region at the start of the conversation. This allows it to tailor its responses based on developmental stage and local relevance—providing a more thoughtful and responsible AI experience for kids.\nVisit A Little Secret"
-  },
-  {
-    "objectID": "projects.html#project-2",
-    "href": "projects.html#project-2",
-    "title": "Projects",
-    "section": "Project 2",
-    "text": "Project 2\nCapstone Project – Delayed Antibiotics Administration\nCollaboration: Children’s Hospital of Orange County (CHOC)\nDuration: January 2025 – June 2025\nCollaborated with CHOC to develop a data-driven predictive model identifying and classifying the severity of delayed antibiotic administration in pediatric patients. The goal was to assist clinicians in proactive intervention, improving patient outcomes and hospital efficiency.\nMy Contribution:\n\nData Engineering: Engineered an ETL pipeline to consolidate and clean pediatric antibiotic data, foundational for robust feature engineering and predictive modeling.\nModel Development: Led the development and optimization of a Random Forest model to classify delay severity. Performed hyperparameter tuning, feature analysis, and benchmarked against other statistical models.\nEvaluation & Communication: Conducted rigorous model evaluation using ROC curves and confusion matrices, effectively communicating performance and insights.\nCollaboration & Management: Collaborated closely with clinical stakeholders for requirements and validation; managed project codebase and documentation on GitHub for team collaboration.\n\nVisit project site"
-  },
-  {
-    "objectID": "projects.html#project-3",
-    "href": "projects.html#project-3",
-    "title": "Projects",
-    "section": "Project 3",
-    "text": "Project 3\nBreast Cancer Recurrence Prediction\nThis project explores factors influencing breast cancer recurrence using Bayesian Logistics modeling and predictive analytics.\nView detailed report"
-  },
-  {
-    "objectID": "projects.html#project-4",
-    "href": "projects.html#project-4",
-    "title": "Projects",
-    "section": "Project 4",
-    "text": "Project 4\nAnalyzing Related Factors to Computer Science Conferences Publications\nThis project investigates key factors associated with publication output in computer science conferences.\nBegan by processing and preparing the data, including thorough data cleaning, wrangling, and mining. Then gathered and organized open-source data in JSON format from NSF and NIH, enabling a deeper analysis of how various factors impact the number of conference publications.\nView data processing and cleaning report\nView finalized data report"
-  },
-  {
-    "objectID": "projects.html#project-5",
-    "href": "projects.html#project-5",
-    "title": "Projects",
-    "section": "Project 5",
-    "text": "Project 5\nDolendar System Requirements\nThis project involved developing a comprehensive report tailored to the client’s specific needs and requirements. After a focused two-hour consultation, I carefully synthesized the client’s input and compiled all key insights into a well-structured document.\nView full report"
+    "text": "Age- and Context-Appropriate AI Chat for Children\nOverview: An interactive AI chatbot tailored to three developmental bands—ages 5–7, 8–12, and 13+—built with OpenAI ChatGPT API and Retrieval-Augmented Generation (RAG) for accurate, age-appropriate, context-aware replies.\nHow it works: - Collects age and region at conversation start to customize tone, vocabulary, and examples. - Uses RAG to ground responses in curated knowledge, improving safety and relevance. - Prioritizes responsible interaction patterns for kids.\n👉 Visit A Little Secret\n\n\n\nCapstone Project — Delayed Antibiotics Administration\nPartner: Children’s Hospital of Orange County (CHOC)\nDuration: Jan 2025 – Jun 2025\nGoal: Predict and classify the severity of delayed antibiotic administration to support proactive clinical intervention.\nMy contributions: - Data Engineering: Built an ETL pipeline to consolidate multi-source pediatric data; enabled reliable feature engineering and modeling. - Model Development: Led a Random Forest classifier; hyperparameter tuning, feature analysis, and baselines against alternative models. - Evaluation & Communication: Assessed with ROC curves and confusion matrices; presented findings and implications to clinical stakeholders. - Collaboration & Management: Translated clinician requirements, validated outputs, and maintained code/docs in GitHub.\n👉 Project site\n\n\n\nBreast Cancer Recurrence Prediction\nFocus: Identify factors associated with recurrence using Bayesian logistic modeling and predictive analytics.\nOutcome: Interpretable estimates with uncertainty quantification to inform clinical risk understanding.\n👉 Detailed report\n\n\n\nFactors Related to Computer Science Conference Publications\nQuestion: Which variables are associated with higher conference publication output?\nApproach: - Extensive data cleaning/wrangling/mining on open-source datasets. - Aggregated JSON data from NSF and NIH to align funding/activity features with publication counts. - Built tidy, analysis-ready tables for modeling and comparison.\n👉 Data processing & cleaning\n👉 Final analysis report\n\n\n\nDolendar System Requirements\nScope: Translated a 2-hour client consultation into a comprehensive, structured requirements document.\nDeliverable: Clear user stories, functional/non-functional specs, constraints, and acceptance criteria to guide development.\n👉 Full report"
   },
   {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Poster Presentation\n\n2025 AAAS S-STEM Scholars Meeting at San Diego, CA, United States\nTheme: Social Science\nTitle: Examining the Impact of an AI-powered Writing Platform in Upper-division Engineering Courses\nExpanded analysis across multiple quarters:\n\nQuantity of AI interactions is a modest predictor\nInstructional context and module design matter more\nPlanning and revision modules are consistent student needs\n\n2025 UCI Undergraduate Research Symposium poster presentation finalist.\nTheme: Human Experience and Expression\nTitle: Examining the Impact of an AI-powered Writing Platform in Upper-division Engineering Courses\nPoster\nInitial finding from Spring 2024 data:\n\nHigh-performing students engaged with the AI more frequently and used concise language.\nLower-performing students interacted less often but supplied longer, more elaborate inputs per conversation on average.\n\n\n\n\nResearch Experience\nResearch Assistant, UCI Digital Learning Lab\nSummer 2024 – Present\nWorking under Dr. Mark Warschauer, I’ve contributed to multiple education-focused research projects at the intersection of learning science and AI.\n\nPapyrus AI Project (January, 2025 – Present):\n\nCurrently supporting research on an AI-powered writing support system designed to improve students’ writing skills and learning outcomes. My work involves data cleaning, exploratory analysis, and evaluating usage patterns across diverse student populations.\n\nConverse to Learn Project (June, 2024 – 2025):\n\nParticipated in data collection and annotation for a project exploring how conversational agents can enhance student engagement and learning in educational settings.\n\n\nThis experience has deepened my understanding of educational technology, human-AI interaction, and quantitative research methods, while also giving me opportunities to collaborate across interdisciplinary teams."
+    "text": "Poster Presentations\nAAAS S-STEM Scholars Meeting — San Diego, CA\nDates: October 2–4, 2025 · Theme: Social Science\nTitle: Examining the Impact of an AI-Powered Writing Platform in Upper-Division Engineering Courses\nView poster\nExpanded analysis across multi-quarter: - Total AI interactions are a modest predictor of outcomes.\n- Instructional context and module design explain more variance.\n- Planning and revision modules are consistent student needs.\n\nUCI Undergraduate Research Symposium — Poster Finalist — Irvine, CA\nDate: June 16, 2025 · Theme: Human Experience and Expression\nTitle: Examining the Impact of an AI-Powered Writing Platform in Upper-Division Engineering Courses\nView poster\nInitial findings (Spring 2024 cohort): - Higher-performing students engaged more frequently and wrote more concisely.\n- Lower-performing students engaged less often but provided longer, more elaborate inputs per conversation.\n\n\n\nResearch Experience\nResearch Assistant, UCI Digital Learning Lab — Summer 2024–Present\nAdvisor: Dr. Mark Warschauer\n\nPapyrusAI (Jan 2025–Present):\nData cleaning, exploratory analysis, and usage-pattern evaluation for an AI writing support system used across multiple course offerings and student populations.\nConverse to Learn (Jun 2024– Aug 2025):\nData collection and annotation for a study on how conversational agents shape student engagement and learning.\n\nImpact: Strengthened skills in educational data science, human–AI interaction, and quantitative research; collaborated with interdisciplinary teams to translate analyses into actionable insights for instruction and tool design."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Ruilin Wu",
     "section": "",
-    "text": "Hi, I’m Ruilin Wu! I’m a third-year student at University of California Irvine, majoring in Data Science with a minor in Informatics."
+    "text": "LinkedIn\n  \n  \n    \n     GitHub\n  \n  \n    \n     Email\n  \n\n  \n  \n\n\nHello! Hello! I’m a fourth-year Data Science major (Informatics minor) at the University of California, Irvine🎓. My work focuses on learning analytics, AI-supported writing, and equitable EdTech: I analyze multi-quarter course datasets and translate findings into clear, actionable insights for instructors and researchers, with an emphasis on transparency, reproducibility, and equity.\nAt UCI’s Digital Learning Lab, I’ve been involved in both Converse to Learn project and Generative AI project🤖. I’m also a CP-LEADS Fellow and a PALiISaDS Scholar, experiences that deepen my training in education-focused data science, and I serve as an HR Board Member for the Chinese Union at UCI, where I support event data analysis, operations, and student engagement🤝. My interests include Learning Analytics, Educational Data Science, NLP for Writing Support, and Data Visualization🔬.\n\n\n\n\nRPythonJava"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Ruilin Wu",
+    "section": "",
+    "text": "Research Assistant, Digital Learning Lab (UC Irvine) — PapyrusAI learning-analytics project; NLP features, data cleaning, quantitative coding; analysis of student–AI interactions.\nCP-LEADS Fellow — Career Pathways for Research in Learning & Education, Analytics & Data Science (IES-funded).\nPALiISaDS Scholar — NSF-funded Pacific Alliance for Low-income Inclusion in Statistics & Data Science.\nBoard Member (HR), Chinese Union at UCI, — event data analysis, operations, and student engagement."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Ruilin Wu",
+    "section": "",
+    "text": "B.S., Data Science (Informatics minor) — University of California, Irvine\n\nCoursework: Bayesian Data Analysis, Data Wrangling (STATS 170A/B), ML, Visualization, HCI\nGPA: 3.82"
   },
   {
     "objectID": "media/Breast_Cancer_Recurrence_Prediction.html",
@@ -131,5 +110,19 @@
     "title": "Data Processing",
     "section": "",
     "text": "Task 4.1\nSQL Query:\nSELECT\ng.name AS author,\ng.dept AS institution,\nSUM(g.count) AS a_star_publication\nFROM generated_author_info_clean AS g\nJOIN conference_ranking AS c\nON LOWER(g.area) = LOWER(c.Antonym)\nWHERE c.Rank = ‘A*’\nAND g.year BETWEEN 2010 AND 2024\nGROUP BY g.name, g.dept\nORDER BY a_star_publication DESC, author ASC, institution ASC\nLIMIT 100;\nOutput:\nFrom the above SQL statement, we have generated top 100 authors. The following screenshot displays the top 10 of them.\n\n\n\n\n\n\n\n\n\nSQL Query:\nWITH RankedInstitutions AS (\nSELECT\nCOALESCE(fc.field, ‘Unknown Field’) AS cs_field,\ng.dept AS institution_name,\nCOUNT(*) AS a_star_publications,\nRANK() OVER (\nPARTITION BY COALESCE(fc.field, ‘Unknown Field’)\nORDER BY COUNT(*) DESC, g.dept ASC\n) AS rank_position\nFROM generated_author_info_clean g\nJOIN conference_ranking c\nON LOWER(g.area) = LOWER(c.Antonym)\nLEFT JOIN field_conference fc\nON LOWER(g.area) LIKE ‘%’ || LOWER(fc.conference) || ‘%’ – Substring matching\nWHERE c.Rank = ‘A*’\nGROUP BY COALESCE(fc.field, ‘Unknown Field’), g.dept\n)\nSELECT\ncs_field,\ninstitution_name,\na_star_publications\nFROM RankedInstitutions\nWHERE rank_position &lt;= 10\nORDER BY cs_field ASC, a_star_publications DESC, institution_name ASC;\nOutput: From the above SQL statement, we have generated top 10 institutions in each field. The total number of fields is 17."
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Ruilin Wu",
+    "section": "",
+    "text": "Hello! Hello! I’m a fourth-year Data Science major (Informatics minor) at the University of California, Irvine🎓. My work focuses on learning analytics, AI-supported writing, and equitable EdTech: I analyze multi-quarter course datasets and translate findings into clear, actionable insights for instructors and researchers, with an emphasis on transparency, reproducibility, and equity.\nAt UCI’s Digital Learning Lab, I’ve been involved in both Converse to Learn project and Generative AI project🤖. I’m also a CP-LEADS Fellow and a PALiISaDS Scholar, experiences that deepen my training in education-focused data science, and I serve as an HR Board Member for the Chinese Union at UCI, where I support event data analysis, operations, and student engagement🤝. My interests include Learning Analytics, Educational Data Science, NLP for Writing Support, and Data Visualization🔬."
+  },
+  {
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
+    "title": "Ruilin Wu",
+    "section": "",
+    "text": "RPythonJava"
   }
 ]
