@@ -24,13 +24,7 @@ h2, h3 {
   font-weight: 700;
 }
 
-/* Improve readability in hero section */
-#hero-heading {
-  font-size: 1.1rem;
-  line-height: 1.7;
-  max-width: 850px;   /* keeps text at a comfortable line length */
-  margin-top: 1rem;
-}
+
 
 /* Add gentle spacing between paragraphs */
 #hero-heading p + p {
@@ -55,11 +49,10 @@ h2, h3 {
   font-size: .9rem; 
   font-weight: 600; }
 
-/* Slightly larger About/Skills headings */
-#hero-heading h2 {
-  font-size: 1.8rem;
-  margin-bottom: 0.8rem;
+#hero-heading .about-title {
+  font-size: 2rem;        /* try 1.8–2.2rem until it looks right */
+  font-weight: 700;       /* optional: make lighter if too bold */
+  line-height: 1.2;
 }
-
 
 
