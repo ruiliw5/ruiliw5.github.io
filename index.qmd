@@ -18,7 +18,7 @@ about:
       href: https://github.com/ruiliw5/coding-project/tree/Project-1 
     - icon: envelope
       text: Email
-      href: ruiliw5@uci.edu  
+      href: "mailto:ruiliw5@uci.edu" 
 ---
 
 :::{#hero-heading}

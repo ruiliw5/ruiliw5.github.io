@@ -49,18 +49,18 @@
     "text": "LinkedIn\n  \n  \n    \n     GitHub\n  \n  \n    \n     Email\n  \n\n  \n  \n\n\nHello! Hello! I’m a fourth-year Data Science major (Informatics minor) at the University of California, Irvine🎓. My work focuses on learning analytics, AI-supported writing, and equitable EdTech: I analyze multi-quarter course datasets and translate findings into clear, actionable insights for instructors and researchers, with an emphasis on transparency, reproducibility, and equity.\nAt UCI’s Digital Learning Lab, I’ve been involved in both Converse to Learn project and Generative AI project🤖. I’m also a CP-LEADS Fellow and a PALiISaDS Scholar, experiences that deepen my training in education-focused data science, and I serve as an HR Board Member for the Chinese Union at UCI, where I support event data analysis, operations, and student engagement🤝. My interests include Learning Analytics, Educational Data Science, NLP for Writing Support, and Data Visualization🔬.\n\n\n\n\nRPythonJava"
   },
   {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
+    "objectID": "index.html#about",
+    "href": "index.html#about",
     "title": "Ruilin Wu",
     "section": "",
-    "text": "Research Assistant, Digital Learning Lab (UC Irvine) — PapyrusAI learning-analytics project; NLP features, data cleaning, quantitative coding; analysis of student–AI interactions.\nCP-LEADS Fellow — Career Pathways for Research in Learning & Education, Analytics & Data Science (IES-funded).\nPALiISaDS Scholar — NSF-funded Pacific Alliance for Low-income Inclusion in Statistics & Data Science.\nBoard Member (HR), Chinese Union at UCI, — event data analysis, operations, and student engagement."
+    "text": "Hello! Hello! I’m a fourth-year Data Science major (Informatics minor) at the University of California, Irvine🎓. My work focuses on learning analytics, AI-supported writing, and equitable EdTech: I analyze multi-quarter course datasets and translate findings into clear, actionable insights for instructors and researchers, with an emphasis on transparency, reproducibility, and equity.\nAt UCI’s Digital Learning Lab, I’ve been involved in both Converse to Learn project and Generative AI project🤖. I’m also a CP-LEADS Fellow and a PALiISaDS Scholar, experiences that deepen my training in education-focused data science, and I serve as an HR Board Member for the Chinese Union at UCI, where I support event data analysis, operations, and student engagement🤝. My interests include Learning Analytics, Educational Data Science, NLP for Writing Support, and Data Visualization🔬."
   },
   {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
     "title": "Ruilin Wu",
     "section": "",
-    "text": "B.S., Data Science (Informatics minor) — University of California, Irvine\n\nCoursework: Bayesian Data Analysis, Data Wrangling (STATS 170A/B), ML, Visualization, HCI\nGPA: 3.82"
+    "text": "RPythonJava"
   },
   {
     "objectID": "media/Breast_Cancer_Recurrence_Prediction.html",
@@ -110,19 +110,5 @@
     "title": "Data Processing",
     "section": "",
     "text": "Task 4.1\nSQL Query:\nSELECT\ng.name AS author,\ng.dept AS institution,\nSUM(g.count) AS a_star_publication\nFROM generated_author_info_clean AS g\nJOIN conference_ranking AS c\nON LOWER(g.area) = LOWER(c.Antonym)\nWHERE c.Rank = ‘A*’\nAND g.year BETWEEN 2010 AND 2024\nGROUP BY g.name, g.dept\nORDER BY a_star_publication DESC, author ASC, institution ASC\nLIMIT 100;\nOutput:\nFrom the above SQL statement, we have generated top 100 authors. The following screenshot displays the top 10 of them.\n\n\n\n\n\n\n\n\n\nSQL Query:\nWITH RankedInstitutions AS (\nSELECT\nCOALESCE(fc.field, ‘Unknown Field’) AS cs_field,\ng.dept AS institution_name,\nCOUNT(*) AS a_star_publications,\nRANK() OVER (\nPARTITION BY COALESCE(fc.field, ‘Unknown Field’)\nORDER BY COUNT(*) DESC, g.dept ASC\n) AS rank_position\nFROM generated_author_info_clean g\nJOIN conference_ranking c\nON LOWER(g.area) = LOWER(c.Antonym)\nLEFT JOIN field_conference fc\nON LOWER(g.area) LIKE ‘%’ || LOWER(fc.conference) || ‘%’ – Substring matching\nWHERE c.Rank = ‘A*’\nGROUP BY COALESCE(fc.field, ‘Unknown Field’), g.dept\n)\nSELECT\ncs_field,\ninstitution_name,\na_star_publications\nFROM RankedInstitutions\nWHERE rank_position &lt;= 10\nORDER BY cs_field ASC, a_star_publications DESC, institution_name ASC;\nOutput: From the above SQL statement, we have generated top 10 institutions in each field. The total number of fields is 17."
-  },
-  {
-    "objectID": "index.html#about",
-    "href": "index.html#about",
-    "title": "Ruilin Wu",
-    "section": "",
-    "text": "Hello! Hello! I’m a fourth-year Data Science major (Informatics minor) at the University of California, Irvine🎓. My work focuses on learning analytics, AI-supported writing, and equitable EdTech: I analyze multi-quarter course datasets and translate findings into clear, actionable insights for instructors and researchers, with an emphasis on transparency, reproducibility, and equity.\nAt UCI’s Digital Learning Lab, I’ve been involved in both Converse to Learn project and Generative AI project🤖. I’m also a CP-LEADS Fellow and a PALiISaDS Scholar, experiences that deepen my training in education-focused data science, and I serve as an HR Board Member for the Chinese Union at UCI, where I support event data analysis, operations, and student engagement🤝. My interests include Learning Analytics, Educational Data Science, NLP for Writing Support, and Data Visualization🔬."
-  },
-  {
-    "objectID": "index.html#skills",
-    "href": "index.html#skills",
-    "title": "Ruilin Wu",
-    "section": "",
-    "text": "RPythonJava"
   }
 ]

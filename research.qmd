@@ -3,17 +3,16 @@ title: "Research"
 format: html
 ---
 
-### Poster Presentations
+#### Poster Presentations
 
 **AAAS S-STEM Scholars Meeting** — San Diego, CA\
 **Dates:** October 2–4, 2025 · **Theme:** Social Science\
 **Title:** *Examining the Impact of an AI-Powered Writing Platform in Upper-Division Engineering Courses*\
 [View poster](media/poster2.pdf)
 
-**Expanded analysis across multi-quarter:**
--   Total AI interactions are a modest predictor of outcomes.\
--   Instructional context and module design explain more variance.\
--   Planning and revision modules are consistent student needs.
+**Expanded analysis across multi-quarter:** - Total AI interactions are a modest predictor of outcomes.\
+- Instructional context and module design explain more variance.\
+- Planning and revision modules are consistent student needs.
 
 ------------------------------------------------------------------------
 
@@ -22,13 +21,12 @@ format: html
 **Title:** *Examining the Impact of an AI-Powered Writing Platform in Upper-Division Engineering Courses*\
 [View poster](media/Poster.pdf)
 
-**Initial findings (Spring 2024 cohort):**
--   Higher-performing students engaged more frequently and wrote more concisely.\
--   Lower-performing students engaged less often but provided longer, more elaborate inputs per conversation.
+**Initial findings (Spring 2024 cohort):** - Higher-performing students engaged more frequently and wrote more concisely.\
+- Lower-performing students engaged less often but provided longer, more elaborate inputs per conversation.
 
 ------------------------------------------------------------------------
 
-### Research Experience
+#### Research Experience
 
 **Research Assistant,** [UCI Digital Learning Lab](https://www.digitallearninglab.org/) — *Summer 2024–Present*\
 Advisor: Dr. Mark Warschauer

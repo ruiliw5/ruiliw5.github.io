@@ -2,7 +2,7 @@
 title: "Projects"
 ---
 
-### Age- and Context-Appropriate AI Chat for Children
+#### Age- and Context-Appropriate AI Chat for Children
 
 **Overview:** An interactive AI chatbot tailored to three developmental bands—**ages 5–7**, **8–12**, and **13+**—built with **OpenAI ChatGPT API** and **Retrieval-Augmented Generation (RAG)** for accurate, age-appropriate, context-aware replies.
 
@@ -15,7 +15,7 @@ title: "Projects"
 
 ---
 
-### Capstone Project — Delayed Antibiotics Administration
+#### Capstone Project — Delayed Antibiotics Administration
 
 **Partner:** Children’s Hospital of Orange County (CHOC)  
 **Duration:** Jan 2025 – Jun 2025  
@@ -31,7 +31,7 @@ title: "Projects"
 
 ---
 
-### Breast Cancer Recurrence Prediction
+#### Breast Cancer Recurrence Prediction
 
 **Focus:** Identify factors associated with recurrence using **Bayesian logistic modeling** and predictive analytics.  
 **Outcome:** Interpretable estimates with uncertainty quantification to inform clinical risk understanding.
@@ -40,7 +40,7 @@ title: "Projects"
 
 ---
 
-### Factors Related to Computer Science Conference Publications
+#### Factors Related to Computer Science Conference Publications
 
 **Question:** Which variables are associated with higher conference publication output?  
 **Approach:**
@@ -53,7 +53,7 @@ title: "Projects"
 
 ---
 
-### Dolendar System Requirements
+#### Dolendar System Requirements
 
 **Scope:** Translated a 2-hour client consultation into a comprehensive, structured **requirements document**.  
 **Deliverable:** Clear user stories, functional/non-functional specs, constraints, and acceptance criteria to guide development.

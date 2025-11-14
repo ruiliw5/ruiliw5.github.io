@@ -61,9 +61,5 @@ h2, h3 {
   margin-bottom: 0.8rem;
 }
 
-#hero-heading img {
-  border-radius: 50%;
-  border: 4px solid #a7d8f0;     /* matches your navbar */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
+
 
