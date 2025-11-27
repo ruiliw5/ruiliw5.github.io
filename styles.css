@@ -50,9 +50,21 @@ h2, h3 {
   font-weight: 600; }
 
 #hero-heading .about-title {
-  font-size: 2rem;        /* try 1.8–2.2rem until it looks right */
+  font-size: 2.1rem;        /* try 1.8–2.2rem until it looks right */
   font-weight: 700;       /* optional: make lighter if too bold */
   line-height: 1.2;
+}
+
+/* Stack about-page links vertically instead of in a row */
+.quarto-about-trestles .about-links {
+  display: flex;            /* already flex, but we override direction */
+  flex-direction: column;   /* vertical */
+  align-items: flex-start;  /* left align buttons */
+}
+
+/* Space between each link button */
+.quarto-about-trestles .about-link {
+  margin-bottom: 0.4rem;
 }
 
 

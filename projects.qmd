@@ -4,11 +4,14 @@ title: "Projects"
 
 #### Age- and Context-Appropriate AI Chat for Children
 
-**Overview:** An interactive AI chatbot tailored to three developmental bands—**ages 5–7**, **8–12**, and **13+**—built with **OpenAI ChatGPT API** and **Retrieval-Augmented Generation (RAG)** for accurate, age-appropriate, context-aware replies.
+**Overview:** An interactive AI chatbot tailored to three developmental bands—ages 5–7, 8–12, and 13+; built with OpenAI ChatGPT API and Retrieval-Augmented Generation (RAG) for accurate, age-appropriate, context-aware replies.
 
 **How it works:**
-- Collects **age** and **region** at conversation start to customize tone, vocabulary, and examples.
+
+- Collects age and region at conversation start to customize tone, vocabulary, and examples.
+
 - Uses RAG to ground responses in curated knowledge, improving safety and relevance.
+
 - Prioritizes responsible interaction patterns for kids.
 
 👉 [Visit *A Little Secret*](https://udify.app/chat/mWZA7pZ9UzqpC2s2)
@@ -19,12 +22,16 @@ title: "Projects"
 
 **Partner:** Children’s Hospital of Orange County (CHOC)  
 **Duration:** Jan 2025 – Jun 2025  
-**Goal:** Predict and classify the **severity of delayed antibiotic administration** to support proactive clinical intervention.
+**Goal:** Predict and classify the severity of delayed antibiotic administration to support proactive clinical intervention.
 
 **My contributions:**
+
 - **Data Engineering:** Built an ETL pipeline to consolidate multi-source pediatric data; enabled reliable feature engineering and modeling.
-- **Model Development:** Led a **Random Forest** classifier; hyperparameter tuning, feature analysis, and baselines against alternative models.
-- **Evaluation & Communication:** Assessed with **ROC curves** and **confusion matrices**; presented findings and implications to clinical stakeholders.
+
+- **Model Development:** Led a Random Forest classifier; hyperparameter tuning, feature analysis, and baselines against alternative models.
+
+- **Evaluation & Communication:** Assessed with ROC curves and confusion matrices; presented findings and implications to clinical stakeholders.
+
 - **Collaboration & Management:** Translated clinician requirements, validated outputs, and maintained code/docs in GitHub.
 
 👉 [Project site](https://sites.google.com/uci.edu/2025stats170a-group9-site/home?authuser=0)
@@ -33,20 +40,29 @@ title: "Projects"
 
 #### Breast Cancer Recurrence Prediction
 
-**Focus:** Identify factors associated with recurrence using **Bayesian logistic modeling** and predictive analytics.  
-**Outcome:** Interpretable estimates with uncertainty quantification to inform clinical risk understanding.
+**Focus:** This project applies Bayesian Logistic Regression to predict five-year breast cancer recurrence using a structured clinical dataset (n = 275). The goal is to build an interpretable, uncertainty-aware modeling workflow that supports clinical decision-making.
+
+**Outcome:** The Bayesian logistic regression model identified axillary lymph node involvement (3–11 nodes) and higher malignancy degree as strong predictors of recurrence, while small tumors (10–14 mm) were associated with lower risk. Using a ROC-optimized threshold of 0.33, the model achieved ~67% sensitivity, ~71% specificity, and ~70% cross-validated accuracy, providing interpretable, uncertainty-aware risk estimates for breast cancer recurrence.
 
 👉 [Detailed report](media/Breast_Cancer_Recurrence_Prediction.md)
-
+👉 [R code](media/final_project.html)
 ---
 
 #### Factors Related to Computer Science Conference Publications
 
 **Question:** Which variables are associated with higher conference publication output?  
+
 **Approach:**
-- Extensive **data cleaning/wrangling/mining** on open-source datasets.
-- Aggregated JSON data from **NSF** and **NIH** to align funding/activity features with publication counts.
-- Built tidy, analysis-ready tables for modeling and comparison.
+
+- Extensive data cleaning/wrangling/mining on open-source datasets.
+
+- Used Python to parse and aggregate JSON data from NSF and NIH, aligning funding/activity features with publication counts.
+
+- Wrote SQL queries to extract and join relational data across multiple tables.
+
+- Built tidy, analysis-ready tables for modeling and comparison. 
+
+**Outcome:** Funding is a weak predictor of publication output for individual researchers, but a strong predictor at the institutional level, where regional differences further influence how effectively funding translates into high-impact computer science publications.
 
 👉 [Data processing & cleaning](media/Stats170A_a1.md)  
 👉 [Final analysis report](media/Stats170A_a2.md)
@@ -55,7 +71,7 @@ title: "Projects"
 
 #### Dolendar System Requirements
 
-**Scope:** Translated a 2-hour client consultation into a comprehensive, structured **requirements document**.  
+**Scope:** Translated a 2-hour client consultation into a comprehensive, structured requirements document.  
 **Deliverable:** Clear user stories, functional/non-functional specs, constraints, and acceptance criteria to guide development.
 
 👉 [Full report](media/Dolendar_System_Requirements.md)

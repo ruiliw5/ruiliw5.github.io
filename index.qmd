@@ -8,7 +8,7 @@ page-layout: full
 about: 
   id: hero-heading 
   template: trestles
-  image-width: 60%
+  image-width: 50%
   links: 
     - icon: linkedin
       text: LinkedIn
@@ -18,21 +18,29 @@ about:
       href: https://github.com/ruiliw5/coding-project/tree/Project-1 
     - icon: envelope
       text: Email
-      href: "mailto:ruiliw5@uci.edu" 
+      href: "mailto:ruiliw5@uci.edu"  
+
+format:
+  html:
+    css: styles.css
 ---
 
-:::{#hero-heading}
+::: {#hero-heading}
+<div style="padding-left: 1.2rem;">
+## About
 
-## About 
-Hello!👋 I’m a fourth-year Data Science major (Informatics minor) at the University of California, Irvine🎓. My work focuses on learning analytics, AI-supported writing, and equitable EdTech: I analyze multi-quarter course datasets and translate findings into clear, actionable insights for instructors and researchers, with an emphasis on transparency, reproducibility, and equity. 
+Hello!👋 I’m a fourth-year Data Science major (Informatics minor) at the University of California, Irvine🎓. My work focuses on learning analytics, AI-supported writing, and equitable EdTech: I analyze multi-quarter course datasets and translate findings into clear, actionable insights for instructors and researchers, with an emphasis on transparency, reproducibility, and equity.
 
-At UCI’s Digital Learning Lab, I've been involved in both Converse to Learn project and Generative AI project🤖. I’m also a [**CP-LEADS Fellow**](https://sites.uci.edu/cpleads/) and a [**PALiISaDS Scholar**](https://www.paliisads.org/), experiences that deepen my training in data science, and I serve as an HR Board Member for the Chinese Union at UCI, where I support event data analysis, operations, and student engagement🤝. My interests include Learning Analytics, Educational Data Science, NLP for Writing Support, and Data Visualization🔬.
+At UCI’s Digital Learning Lab, I've been involved in both Converse to Learn project and Generative AI project🤖. I’m also a [**CP-LEADS Fellow**](https://sites.uci.edu/cpleads/) and a [**PALiISaDS Scholar**](https://www.paliisads.org/), experiences that strengthen my training in statistics, machine learning, and research communication. Outside academia, I serve as an HR Board Member for the Chinese Union at UCI, supporting event analytics, operations, and student engagement🤝. 
+
+My interests include Machine Learning, Educational Data Science, NLP for Writing Support, Statistical Modeling, and Data Visualization📊 — especially building transparent, scalable, and human-centered data systems that turn real-world data into meaningful impact🔬.
 
 
-## Skills 
+## Skills
+
 <div class="badges">
-  <span>R</span><span>Python</span><span>SQL</span><span>Java</span>
+  <span>R</span><span>Python</span><span>SQL</span><span>Java</span><span>Figma</span>
 </div>
 
-
+</div>
 :::
