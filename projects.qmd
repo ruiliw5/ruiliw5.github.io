@@ -2,6 +2,28 @@
 title: "Projects"
 ---
 
+#### ZotFinder Campus Navigation: UX Research & Interface Redesign  
+
+**Overview:** A research-driven redesign of UCI’s ZotFinder app to better support off-campus commuters—from planning safe routes to finding quiet, comfortable study spaces on campus.
+
+**What I did:**
+
+- Interviewed and observed students to understand pain points in commuting, wayfinding, and study-space selection.
+
+- Created a persona and scenario, then designed an interactive mobile prototype in Figma.
+
+- Ran think-aloud usability tests with student participants and synthesized feedback into concrete UI and interaction improvements.
+
+
+👉 [Visit *ZotFinder* Redesign Interface](https://www.figma.com/proto/zMKVfv7mMPS3b1JfRz0S3f/ZotFinder?node-id=0-1&t=5N7NPDi91oXBfA0f-1) 
+
+👉 [Contextual Inquiry](media/contextual-inquiry%20/ContextualInquiry.html)
+👉 [Sketching and Prototyping](media/sketching-prototyping/SketchingandPrototypingReport.html)
+👉 [Usability Evaluation](media/usability-evaluation/UsabilityEvaluation.html)
+
+
+---
+
 #### Age- and Context-Appropriate AI Chat for Children
 
 **Overview:** An interactive AI chatbot tailored to three developmental bands—ages 5–7, 8–12, and 13+; built with OpenAI ChatGPT API and Retrieval-Augmented Generation (RAG) for accurate, age-appropriate, context-aware replies.
@@ -46,6 +68,7 @@ title: "Projects"
 
 👉 [Detailed report](media/Breast_Cancer_Recurrence_Prediction.md)
 👉 [R code](media/final_project.html)
+
 ---
 
 #### Factors Related to Computer Science Conference Publications

@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>usability-evaluation – Ruilin Wu</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Ruilin Wu</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+
+<p><strong>Usability Evaluation</strong></p>
+<p>This report is based on the interactive prototype created for Sketching and Prototyping Report, which redesigned the ZotFinder campus navigation app to better support commuter students’ safety, comfort, and route-planning needs. In this updated prototype, users can choose between different route options (such as walking-only versus walk-plus-bus) and see how the overall trip experience would look, including time and segments. The design introduces features such as safety and comfort filters (e.g., “Avoid Park,” “Well-lit Route,” “Shaded Areas”), bus crowdedness indicators, and an optional AR view for orientation, so that users can gain an approximate understanding of how the full journey would feel even though not all features are fully implemented. In this report, I describe the usability evaluation of that prototype, including the evaluation script, the main task given to participants, a summary of their qualitative feedback, the key usability issues identified, and proposed changes to improve the interface.</p>
+<section id="script" class="level3">
+<h3 class="anchored" data-anchor-id="script"><strong>Script</strong></h3>
+<ol type="1">
+<li><p><strong>Intro / Greeting</strong><br>
+Hi, thank you for taking the time to participate in this usability study.<br>
+My name is Ruilin, and I’m a student in INF 131. I’m doing a short usability study for this class.<br>
+(Optional small talk ): “How’s your day going?” / “How’s week 10 treating you?”<br>
+You were invited because your experience as a UCI student can help improve a campus navigation app. Today, you’ll be trying out a prototype of a redesigned ZotFinder interface. ZotFinder is a UCI campus map app. This prototype focuses on helping commuter students plan safe and comfortable routes to campus by combining walking, bus information, and route filters.<br>
+The session will have two parts: First, a short mini-interview about how you usually get to campus and use navigation apps.<br>
+Then, I’ll ask you to perform a few actions using the ZotFinder prototype.<br>
+The prototype may look like a real app, but because it’s just a prototype, not everything works. So I’ll give you a specific scenario and guide you through it.<br>
+I want to emphasize that I’m not testing you, and I’m testing the design. There are no right or wrong answers. If something is confusing, that means the interface needs improvement. As you work, please think aloud: tell me what you’re looking at, what you’re trying to do, and what you expect to happen.<br>
+I’ll be taking notes, but I won’t include your name in the report. The session should take about 15–20 minutes, and you can stop at any time.<br>
+Do you have any questions, and are you comfortable continuing?<br>
+</p></li>
+<li><p><strong>Mini-Interview Questions</strong></p>
+<ol type="1">
+<li>How do you usually get to campus (e.g., walking, bus, driving, biking)?<br>
+</li>
+<li>How often do you use map or transit apps (Google Maps, Apple Maps, TransLoc, ZotFinder, etc.)?<br>
+</li>
+<li>When planning your route, what matters most to you (speed, safety, shade, avoiding crowds, etc.)?<br>
+</li>
+<li>Have you ever felt unsafe or uncomfortable on your way to or around campus? What happened?<br>
+</li>
+</ol></li>
+<li><p><strong>Task with a prototype / product</strong><br>
+Task 1: Route customization (safety &amp; environment)<br>
+</p></li>
+<li><p>Plan a route from the location to <strong>Howard Schneiderman Lecture Hall</strong> that best fits your preferences for safety and comfort (for example, avoiding parks at night or choosing shaded/quiet paths).<br>
+</p></li>
+<li><p>How can you use the filters (e.g., “Avoid Park,” “Well-lit,” “Shaded,” “Quiet Route”) or the Day/Night toggle to adjust the route to your preferences?<br>
+</p></li>
+<li><p>Follow-up / backup prompts</p>
+<ol type="1">
+<li>What will you do next?<br>
+What did you expect to happen when you enabled or disabled that filter?<br>
+Why did you choose this combination of filters instead of another one?</li>
+</ol>
+<p>Task 2: Transit choice (real-time bus decision)</p></li>
+<li><p>Using the same trip to <strong>Howard Schneiderman Lecture Hall</strong>, choose how you would get there if you decide to take the bus instead of walking the whole way.<br>
+</p></li>
+<li><p>Use the bus section in the prototype to help you decide. In particular, look at the bus arrival times and the stick-figure crowding icons (for example, two versus four figures) that represent the real-time bus capacity, and decide whether you would take the next bus or wait for another one.<br>
+</p></li>
+<li><p>Follow-up / backup prompts</p>
+<ol type="1">
+<li>What did you expect to see when you tapped on that bus option?<br>
+</li>
+<li>How are you interpreting the bus icons, the number of “little people,” and the times when you decide which bus to take?<br>
+</li>
+<li>How are you using the real-time bus capacity information to tell whether the bus is really crowded or not?<br>
+</li>
+<li>Why did you choose this bus instead of the other option?</li>
+</ol>
+<p>Scripts: Imagine you are a commuter student living off campus and heading to an afternoon class at Howard Schneiderman Lecture Hall. Using this prototype, please plan a route from your current location to Howard Schneiderman Lecture Hall that best fits your preferences for safety and comfort.</p></li>
+<li><p><strong>Post-Task Interview Questions</strong><br>
+These are based on the qualitative prompts in the course resource (task + overall feedback).<br>
+Task-related feedback:<br>
+</p></li>
+</ol>
+<ul>
+<li><p>What went well when you were planning your route? What felt clear?<br>
+</p></li>
+<li><p>What was confusing or difficult while you were doing the task?<br>
+</p></li>
+<li><p>Were there any moments you felt stuck or unsure what to do next?</p>
+<p>Overall interface feedback</p></li>
+<li><p>Overall, what did you like about this interface?<br>
+</p></li>
+<li><p>What parts of the interface felt visually clear or easy to understand?<br>
+</p></li>
+<li><p>What did you dislike or find frustrating?<br>
+</p></li>
+<li><p>Were any labels, icons, or buttons unclear or ambiguous?<br>
+</p></li>
+<li><p>Is there anything you wish this interface could show that it currently doesn’t?<br>
+</p></li>
+</ul>
+<ol start="5" type="1">
+<li><strong>Outro</strong><br>
+That’s all the tasks I have for today. Thank you so much for your time and feedback.<br>
+Your comments about what was confusing or helpful will inform the next version of this design. I’ll use what you shared to improve how ZotFinder supports route planning and safety preferences.<br>
+If you think of anything else later, feel free to let me know. Thanks again, and have a great day!</li>
+</ol>
+</section>
+<section id="task-summary" class="level3">
+<h3 class="anchored" data-anchor-id="task-summary"><strong>Task Summary</strong></h3>
+<p>For the main tasks, both participants were able to complete what the prototype asked them to do. They could find and switch between the two route options, one that involved walking only and one that combined walking and the bus, and they were able to choose a route that matched their needs. Then picked the “GO” button to see how the interface would look accordingly and “END” when they wanted to exit. This shows that the basic task flow of noticing that the app offers more than one route, comparing them, and selecting one was clear enough in the interface. Both participants also understood that the filters were intended to shape the route. They could turn options such as “Avoid Park,” “Well lit,” and “Shaded” on and off, and they saw that these settings were related to safety and comfort. At a task level, the core elements required to plan and adjust a route were discoverable and allowed both users to reach a reasonable solution.</p>
+<p>At the same time, several aspects of the tasks did not feel smooth. For both participants, the filters section required extra time and close reading before they felt confident about which filters were turned on and which were off. They could manipulate the controls, but it was not immediately obvious from a quick glance which conditions were currently applied to the route. This slowed down their decision making. The bus information also led to uneven understanding between the two participants. The first participant, who had experience with ZotFinder and with TransLoc, could interpret the bus times and crowd icons well enough to conclude that the first bus looked too full. The second participant, who rarely uses ZotFinder, had to guess the meaning of the bus numbers and the small person icons and was not sure how real time or reliable this data was. Because of this, he could not fully trust the bus information when performing the task. Overall, the interface supported basic route selection and customization, but the clarity of filter states and the meaning of the bus details needs improvement so that the tasks feel more immediate and intuitive for users with different levels of experience.</p>
+<p>From an overall interface perspective, both participants commented that the general layout made sense to them. They could see route options in one area, filters grouped in another area, and bus information in a separate section, and this structure helped them understand what part of the screen to look at for each type of decision. However, both also noted that, because this was their first exposure to this particular redesign, it took them time to interpret the meaning of specific controls and icons. This suggests that while the high level organization of the interface is clear, the finer details of how information is presented and labeled are not yet as self explanatory as they could be.</p>
+</section>
+<section id="participation-feedback" class="level3">
+<h3 class="anchored" data-anchor-id="participation-feedback"><strong>Participation Feedback</strong></h3>
+<p>Both participants were fourth year UCI undergraduate students who live off campus and commute regularly, but they came to the evaluation with different levels of experience using ZotFinder and transit apps. The first participant was an experienced ZotFinder user and had also used TransLoc before. She quickly understood the basic structure of the redesigned interface and moved through the tasks with relatively little hesitation. When asked to plan a route, she chose to walk to Howard Schneiderman Lecture Hall and used the filters to remove routes she did not want. She described the filters as a way to “filter out the routes I do not want,” and she was able to apply conditions such as avoiding certain areas and then select the remaining route that fit her schedule and comfort level. She relied on the time and distance information on the route cards to understand the overall trip duration and liked that she could compare options without doing extra calculations. In the bus section, she used the times and crowd icons to judge that the first bus looked quite full and that she did not have enough time to wait for a later one, so she decided to walk instead. She said she liked having bus information in the interface and found the small person icons clear and visually appealing. At the same time, she commented that the Day and Night toggle felt unnecessary because preferences like wanting a well lit or quiet route were already covered by other filters, which made that toggle feel somewhat redundant.</p>
+<p>The second participant had barely used ZotFinder before and behaved more like a novice encountering the system for the first time. He also successfully completed the tasks, choosing the combined walk and bus route, but he spent a longer time simply looking at the screen and trying to interpret what each section and control meant. He eventually realized that the filters and buttons were interactive, yet he did not quickly understand what each filter would change or how the route options, filters, and bus information were connected. The bus section was especially challenging for him. Unlike the first participant, who could draw on previous experience with TransLoc to interpret the crowd icons, he said he was not sure what the bus numbers and small person icons were meant to show about real time capacity. He needed extra time to guess the meaning behind these visuals and did not feel very confident in using them to decide whether to board the next bus or wait. Together, their feedback suggests that the design works fairly well for experienced users who already understand transit style displays, but it does not yet offer enough built in guidance or clarity for users who are new to ZotFinder or to bus capacity visualizations.</p>
+</section>
+<section id="usability-issues-and-severity" class="level3">
+<h3 class="anchored" data-anchor-id="usability-issues-and-severity"><strong>Usability Issues and Severity</strong></h3>
+<p>For this evaluation, I used a four-level severity scale:</p>
+<p><strong>1 = Cosmetic</strong>, <strong>2 = Minor</strong>, <strong>3 = Major</strong>, <strong>4 = Critical</strong>.</p>
+<p>No critical issues (4) were observed; most fell between minor and major.</p>
+<p><strong>Issue A: Interface assumes prior familiarity with ZotFinder</strong></p>
+<ul>
+<li><strong>Severity:</strong> 2 (Minor)<br>
+</li>
+<li><strong>Description:</strong> The interface seems to assume that users already have some familiarity with ZotFinder or similar navigation tools. Participant 1, who had both ZotFinder and TransLoc experience, navigated quickly and understood the basic structure. Participant 2, who rarely uses ZotFinder, spent more time just looking at the screen and was less sure where to start or what each section was for. Both participants were able to complete the tasks, but for less experienced users the first interaction requires more effort to understand the layout and available controls.</li>
+</ul>
+<p><strong>Issue B: Uneven understanding of bus information and real-time capacity</strong></p>
+<ul>
+<li><strong>Severity:</strong> 2–3 (Minor to Major)<br>
+</li>
+<li><strong>Description:</strong> Participant 1 understood the bus information fairly well, in part because she was already used to reading similar information in TransLoc. She could interpret the stick-figure icons as crowd indicators and use them to decide that the first bus looked too full. In contrast, Participant 2 was not confident about what the bus numbers and “little business man” icons meant and had to guess the meaning behind them. He was not sure how real-time the data was or how strongly he should rely on it. This uneven understanding suggests that the current design communicates bus information clearly to some experienced users, but does not provide enough explicit support for users who are less familiar with transit apps.</li>
+</ul>
+<p><strong>Issue C: Time needed to interpret filters and customization controls</strong></p>
+<ul>
+<li><strong>Severity:</strong> 2 (Minor)<br>
+</li>
+<li><strong>Description:</strong> Both participants mentioned that, because this was their first time using this particular redesign, it took them some time to understand what each filter and control meant. Participant 1 eventually used the filters comfortably and described them as a way to “filter out the routes I don’t want,” while Participant 2 needed longer to interpret what each option would do. This is not a severe problem, but some orientation time is expected with a new interface, which indicates that the meaning of individual filters and the relationship between filters, route options, and bus information could be made clearer to reduce the initial interpretation effort.</li>
+</ul>
+<p><strong>Issue D: Filter state visibility and redundancy of the Day/Night toggle</strong></p>
+<ul>
+<li><strong>Severity:</strong> 2 (Minor)<br>
+</li>
+<li><strong>Description:</strong> Both participants could toggle filters on and off, but they had to look carefully to see which ones were currently enabled. The visual difference between active and inactive filters is not strong enough to be read at a glance. In addition, Participant 1 commented that the Day/Night toggle felt unnecessary because similar preferences (for example, “Well-lit” or “Quiet Route”) were already available as filters. This points to a minor visibility issue (which options are active) and a minor redundancy issue (two ways to express similar preferences), which can cause extra thinking without blocking task completion.</li>
+</ul>
+</section>
+<section id="recommended-interface-changes" class="level3">
+<h3 class="anchored" data-anchor-id="recommended-interface-changes"><strong>Recommended Interface Changes</strong></h3>
+<p>The following changes are directly tied to the issues above and are designed to make the interface easier to interpret on a first use, while still supporting experienced ZotFinder users.</p>
+<p><strong>Change 1: Strengthen filter state visibility and clarify roles of filters vs.&nbsp;Day/Night</strong><br>
+This change addresses Issue C and Issue D.<br>
+The Filters section should more clearly indicate which options are active. Active filters could appear as filled pills with bold text and a small checkmark, while inactive filters remain outlined and lighter. This would allow users to quickly scan and see which conditions are shaping the route, instead of having to inspect each label. In parallel, the role of the Day/Night toggle should be clarified or simplified. One option is to remove it and rely entirely on the filters for safety and comfort preferences. Another option is to make it a preset that turns on relevant filters (for example, “Night” automatically enabling “Well-lit” and “Avoid Park”) and briefly explain this behavior. These changes are adequate because they directly reduce the time users spend interpreting controls, make the active state of the route more transparent, and avoid overlapping controls that may confuse users about what actually changes the route.</p>
+<p><strong>Change 2: Add explicit explanations for bus information and real-time capacity</strong><br>
+This change addresses Issue B.<br>
+To support users like Participant 2, who do not come in with prior TransLoc or transit-app experience, the bus information should explain its meaning more explicitly. A short label or legend could clarify that the stick-figure icons represent real-time or near real-time bus capacity and that more figures indicate a more crowded bus. A brief phrase near the times, such as “Live arrival time” or “Estimated arrival,” would clarify how current the timing is. This change is adequate because it removes the need for users to guess what the icons and times mean, brings users with less experience up to the same understanding that Participant 1 already had, and directly supports the task of deciding whether to board the next bus or wait for another.</p>
+<p><strong>Change 3: Provide light, first-use guidance for the overall layout</strong><br>
+This change addresses Issue A and supports Issue C.<br>
+To reduce the assumption of prior familiarity, the interface can include very lightweight guidance for first-time use. For example, a short inline hint near the Filters section, such as “Use filters to customize your route based on safety and comfort”, and a small label near the routes like “Compare route options” would help users quickly understand what each area is for without requiring a full tutorial. Because both participants mentioned that it took them some time to interpret the controls on first use, these small, targeted hints are adequate: they reduce initial confusion, shorten the learning curve, and still keep the interface clean for repeat use.</p>
+<p>Together, these changes respond directly to the issues observed in the sessions. They focus on making states and meanings more legible, rather than adding new features, so they are well aligned with the kinds of confusion participants actually experienced during the evaluation.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

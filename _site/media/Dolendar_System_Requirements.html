@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>dolendar_system_requirements – Ruilin Wu</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Ruilin Wu</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+
+<p><strong>Dolendar System Requirements</strong></p>
+<p>Ruilin Wu<br>
+</p>
+<section id="table-of-content" class="level1">
+<h1><strong>Table of Content</strong></h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Table of Content</th>
+<th style="text-align: left;"></th>
+<th style="text-align: center;"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Introduction</td>
+<td style="text-align: left;">Outlines the purpose and overview of the Requirements Specification.</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr class="even">
+<td>Executive Summary</td>
+<td style="text-align: left;">A concise recap of the Dolendar’s key aspects and its overarching goals.</td>
+<td style="text-align: center;">3</td>
+</tr>
+<tr class="odd">
+<td>Application Context / Environmental Constraints</td>
+<td style="text-align: left;">Details of the application and the operating platforms.</td>
+<td style="text-align: center;">3-4</td>
+</tr>
+<tr class="even">
+<td>Functional Requirements</td>
+<td style="text-align: left;">Specify the essential actions and features the application must provide.</td>
+<td style="text-align: center;">4-7</td>
+</tr>
+<tr class="odd">
+<td>Non-functional Requirements</td>
+<td style="text-align: left;">Detail the performance and quality for system designers and programmers.</td>
+<td style="text-align: center;">8</td>
+</tr>
+<tr class="even">
+<td>Other Requirements</td>
+<td style="text-align: left;"></td>
+<td style="text-align: center;">9</td>
+</tr>
+<tr class="odd">
+<td>Glossary</td>
+<td style="text-align: left;">Additional requirements still need to be mentioned.</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td>Defines specialized terms throughout the document.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: center;">9</td>
+</tr>
+<tr class="odd">
+<td>Assumptions / Risks</td>
+<td style="text-align: left;">Potential uncertainties and challenges that could impact Dolendar.</td>
+<td style="text-align: center;">10</td>
+</tr>
+<tr class="even">
+<td>Priorities / Implementation Phases</td>
+<td style="text-align: left;">Order and timeline for the application’s development stages</td>
+<td style="text-align: center;">10</td>
+</tr>
+<tr class="odd">
+<td>Future Directions and Expected Changes</td>
+<td style="text-align: left;">Hints at the application’s evolution and potential updates</td>
+<td style="text-align: center;">11</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="section" class="level1">
+<h1></h1>
+</section>
+<section id="introduction" class="level1">
+<h1><strong>Introduction</strong></h1>
+<p>This document outlines the software requirements for Dolendar, a productivity suite of software developed by the INF43 Software Engineering group under the commission of Dom Dones, president and founder of DoMore Software Corp.</p>
+<p>Dolendar integrates a calendar application and a to-do list manager, aimed at helping users enhance work productivity and personal time management, and understand the impact of procrastination on their scheduling.</p>
+</section>
+<section id="executive-summary" class="level1">
+<h1><strong>Executive Summary</strong></h1>
+<p>Dolendar is a sophisticated productivity tool that redefines traditional scheduling by integrating to-do lists with calendar functions. It allows users to craft detailed to-do lists while aligning and displaying their tasks alongside scheduled events, providing a holistic view of their commitments. This feature encourages frequent interaction with the calendar, fostering a proactive approach to task management and highlighting the effects of unfinished tasks on overall schedules. By clearly showing how delays can impact one’s time, Dolendar differentiates itself from ordinary organizational software, serving not just as a work aid but as a comprehensive system for managing personal goals and daily activities.</p>
+<p>Dolendar offers both a personal-use version and an enterprise version. The personal version is free and equipped with all basic features, and a subscription version can support data storage and synchronization. Businesses can opt for the enterprise version, which offers additional functionalities tailored to professional needs and is accessible through corporate engagement with DoMore Software.</p>
+<p>The design philosophy behind Dolendar prioritizes simplicity and user-friendliness, recognizing the necessity for an intuitive user experience amidst a competitive market. It is meticulously developed to meet high standards of usability, privacy, and data protection, thereby ensuring reliability for users. Designed for seamless integration with current digital ecosystems, Dolendar complements existing calendar applications and is compatible with cloud services, allowing immediate productivity enhancements without significant changes to existing workflows.</p>
+<p>Dolendar goes beyond scheduling; it’s an ally in time management, bridging the gap between digital efficiency and the intricacies of everyday living, enabling users to reclaim control over their time with confidence and ease.</p>
+</section>
+<section id="application-context-environmental-constraints" class="level1">
+<h1><strong>Application Context / Environmental Constraints</strong></h1>
+<p>Dolendar software is crafted to serve many environments, demonstrating versatility and adaptability.</p>
+<ul>
+<li>It is designed to streamline and enhance the productivity of business and office settings, where individuals and teams alike can efficiently manage their schedules, meetings, and collaborative endeavors. Within these settings, the software will facilitate team-based functionality, allowing for an intuitive interface where the team’s admin can assign tasks and make announcements with ease.<br>
+</li>
+<li>Dolendar extends its utility to personal use, where users can organize and track their individual goals, daily tasks, family events, and various other personal activities, making it an indispensable tool in the realm of personal organization.<br>
+</li>
+<li>It supports an on-the-go lifestyle, enabling users to access and manage their schedules and tasks with the same efficiency outdoors or while traveling.</li>
+</ul>
+<p>The developmental blueprint for Dolendar spans across mobile and desktop platforms. The mobile application is being developed to serve both iOS and Android operating systems for phones and tablets. This version promises a responsive design, capable of adapting to a multitude of screen sizes and orientations for optimal functionality. Following the mobile release, a desktop application is set to be introduced to serve users on Windows, macOS, and Linux, catering to the needs of the desktop environment.</p>
+<p>With regards to operating system support, the mobile application will be compatible with the system version for iOS and Android at the time of the application release and one prior. The desktop version will match up to the prevailing system versions of Windows, macOS, and Linux at the time of its release, ensuring broad accessibility.</p>
+<p>Design considerations for Dolendar are centered around a modern, elegant, and sleek user interface (UI) design, emphasizing ease of use and intuitive interactions to reduce friction for the end-user. The UI will be inclusive, accommodating both dark and light modes with customizable color themes to not only cater to user preferences but also to ensure accessibility for users who are color-blind.</p>
+<p>Certain constraints dictate the software’s architecture to ensure it aligns with contemporary expectations. It is imperative that the software syncs with prevalent calendar services such as Google Calendar and Apple iCloud Calendar, negating the need for a proprietary calendar system within Dolendar. Emphasis is placed on adopting modern, secure, and robust programming languages and frameworks to fortify the software’s security, efficiency, and maintainability. A cloud-based backend service is also in the blueprint, designed to manage the intricacies of syncing and collaboration features in line with a subscription-based business model.</p>
+<p>In the selection of programming languages, the INF43 Software Engineering group has been granted the liberty to choose the most fitting language for the development of this application, ensuring the final product is built on a foundation that maximizes its potential.</p>
+</section>
+<section id="functional-requirements" class="level1">
+<h1><strong>Functional Requirements</strong></h1>
+<p>Dolendar is a combination of a to-do list app and a calendar, and it is designed to enhance work productivity and personal time management. It integrates various functionalities to address human psychology and procrastination, aiding users in achieving personal and professional goals.</p>
+<p><strong>Core Functionalities</strong></p>
+<ol type="1">
+<li><strong>Event and Task Management:</strong> Users can create, modify, and delete tasks and events. Tasks are the user’s to-do items, activities or goals planned to be completed; events are planned events, such as meetings or courses, fixed schedules or flexible events. This feature includes setting titles, descriptions, and other relevant details for tasks and events. Tasks are more flexible and can be adjusted around fixed events in the calendar.<br>
+</li>
+<li><strong>Time Allocation for Tasks:</strong> Users assign an estimated duration to each task, which the system then integrates into the user’s calendar. This will allow users to have their tasks and events intersected, which helps visualize the time allocated to each task and manage the day more efficiently.<br>
+</li>
+<li><strong>Dynamic Task Adjustment:</strong> Based on the user’s progress and upcoming deadlines, tasks dynamically change in the calendar. If a task is not completed within the expected time, it is automatically rescheduled, affecting the scheduling of future tasks. This feature highlights the impact of procrastination and helps users better manage their time.
+<ol type="1">
+<li>If a user marks a task as done before the deadline, it will not affect subsequent tasks; however, if a task exceeds the deadline, all subsequent tasks will be delayed accordingly. Once an overdue task is completed, all subsequent tasks return to their normal schedule at the current time.<br>
+</li>
+</ol></li>
+<li><strong>Sub-tasks Creation and Management:</strong> Allows breaking down large tasks into smaller, more manageable sub-tasks. Each sub-task can have its own description, duration, and completion status. This feature aids in organizing complex tasks and tracking progress on individual components.<br>
+</li>
+<li><strong>Calendar and To-do List Views:</strong> Separate views for the calendar and the to-do list, providing different perspectives on the user’s schedule. The calendar view displays both tasks and events chronologically, while the to-do list view focuses on tasks alone. Users can toggle between views based on their preference or need.<br>
+</li>
+<li><strong>Task Tags and Filters:</strong> Users can tag tasks and apply filters based on time windows and tags. This feature enhances the organization of tasks by categorizing them (like “work”, “personal”, etc.) and allows users to focus on specific types of tasks within certain time frames using filters.<br>
+</li>
+<li><strong>Syncing:</strong> The free version of the software stores data exclusively on the local device and lacks the ability to synchronize across multiple devices. However, the personal paid version or the enterprise edition includes a syncing feature, allowing users to access their personalized settings and information on different devices.<br>
+</li>
+<li><strong>Team Collaboration:</strong> Designed for team use, this feature enhances task distribution and synchronization among team members.
+<ol type="1">
+<li>Task Assignment and Notification:
+<ol type="1">
+<li>Team admins can assign tasks to members.<br>
+</li>
+<li>Members receive notifications and see these tasks integrated into their personal calendars.<br>
+</li>
+</ol></li>
+<li>Synchronization:
+<ol type="1">
+<li>The sync feature ensures that updates made to tasks are immediately reflected on all team members’ devices. This promotes effective collaboration and keeps the team aligned.<br>
+</li>
+</ol></li>
+<li>Privacy of Tasks and Events:
+<ol type="1">
+<li>Tasks and calendar items can be set as either public or private. Private tasks or events are visible in the calendar as occupied time slots, but their content remains confidential. Team members can see that there is a private task at a certain time but cannot view its specifics.<br>
+</li>
+</ol></li>
+<li>Visibility and Access:
+<ol type="1">
+<li>Every team member has visibility into everyone else’s task list and calendar. Private tasks or events are visible in the calendar as occupied time slots, but their content remains confidential.<br>
+</li>
+<li>Team members can see that there is a private task at a certain time but cannot view its specifics.<br>
+</li>
+<li>This includes viewing the completion status of tasks.<br>
+</li>
+<li>Any team member can add an item to another member’s task list once a day, further enhancing collaborative planning and task distribution.</li>
+</ol></li>
+</ol></li>
+</ol>
+<p><strong>Use Case:</strong><br>
+Use Case 1: Managing Personal Tasks (Primary Actor: Individual User)<br>
+Basic Flow:</p>
+<ol type="1">
+<li>User logs into Dolendar.<br>
+</li>
+<li>User creates a new task, assigning a title, description, and estimated duration.<br>
+</li>
+<li>The system integrates the task into the user’s calendar based on available time slots.<br>
+</li>
+<li>User marks the task as completed after finishing it.<br>
+</li>
+<li>System updates the calendar, moving upcoming tasks forward.</li>
+</ol>
+<p>Alternative Flow:</p>
+<ol type="1">
+<li>User attempts to add a task with an unrealistic duration.<br>
+</li>
+<li>System prompts a warning about the duration conflicting with other scheduled events.<br>
+</li>
+<li>User adjusts the task duration or reschedules other events.</li>
+</ol>
+<p>Exception Flow:</p>
+<ol type="1">
+<li>User forgets to mark a task as completed.<br>
+</li>
+<li>System keeps the task in the calendar, causing a shift in subsequent tasks.</li>
+</ol>
+<p>Use Case 2: Collaborative Task Management (Primary Actor: Team Member; Secondary Actor: Team Admin)<br>
+Basic Flow:</p>
+<ol type="1">
+<li>Team Admin logs into Dolendar and accesses the team calendar.<br>
+</li>
+<li>Team Admin assigns a task to a Team Member, specifying details and deadline.<br>
+</li>
+<li>The system notifies the Team Member and adds the task to their personal calendar.<br>
+</li>
+<li>Team Member completes the task and marks it as done.<br>
+</li>
+<li>System updates the team calendar showing the task’s completion.</li>
+</ol>
+<p><strong>Use Case Diagram:</strong></p>
+<p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdoAAAJuCAYAAAAXV8NRAACAAElEQVR4XuydCdhN1ffHf0mk0CgpTRpVNNCgfvgVadJgKJXmCaFEoykpKhqUhJJZaKIQGYo0J0WjkimhQUqah/P/f7Znn8673zvfM5/1eZ77vPfufe65w3vX/p699tpr/ccSBEEQBMEz/mM2CIIgCILgHiK0giAIguAhIrSCIAiC4CEitIIgCILgISK0giAIguAhIrQx4Mcff7SGDx9e4jZixAjrlVdesZYtW2YenhPOc3mF+Z694rrrrrOaNGli9ezZUz1esmSJcUR0ML8zbsuXL1d9L7zwgi/f51tvvWW1bt3auuaaa9Tv7K+//lLtQ4YMMY70DvM74DZp0qSMv/e77rrLmjdvntksCJ4jQhsj6tevb/3nP/9RN/j++++tc845Rz3eZZddjKMzc/3115c4l1e0bdvWs9dp1qxZqfMeeOCBpdqK4dFHHzWbPOf+++9Xn2Hfffc1u6x7773XqlixotnsCjfddJN63S222KJE+2OPPWaVL1/e6tq1a4l2r3H+3vv27avaMv3eaS9Tpoy1cuVKs0sQPMW9EUcInFNPPbWUaDHb0G0zZsxwHJ2Z7t27lzqXF3gp6KnO+9FHH1nbbrttibZC+eyzz1w7Vz4MGzZMfa7DDz/c7LKee+4566CDDjKbXUF/n3feeafZZT3xxBO+C63z966Flt+7FmDz937AAQco74Yg+I37o5sQGKeffnpKcdlvv/1StsPPP/+sBiTzKj+d0DKQ4Xo1j0/FnDlzrN9//91sVrz44ovqb+fOnVO+DuAKXb16tdlcgo0bN1p//PGH2azQ533ooYdKtL/++uslHmcDcZ42bZq6j5cAvvjii7TvGxYuXGj98MMPZnMJZs2aZX3++ef2499++8369NNPHUekBnctr1unTh2zS53TFOBU71/z559/qudkeq8cs/vuu6vXZDkiHabQfvnll+r//M8//5RoB97Hm2++qc69aNEis9uaPn16yuc5cf7ecQs70e38jrPB71l/P6mYO3euNXv2bLO5FHwW83vEXjh3Nnvhs2IvTlasWKHsU4g+qUcJIZKkE1rtauSGQMB3332nHp944onq8YUXXmgddthh9nNSCS3uOJ4HO+20k3LDMSBqdt11V3X8brvtpgZd/fxVq1bZxyAOtL3x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" class="img-fluid"></p>
+</section>
+<section id="non-functional-requirements" class="level1">
+<h1><strong>Non-functional Requirements</strong></h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Usability</th>
+<th style="text-align: left;">The UI/UX should be modern, elegant, and stylish, designed for easy input and editing of tasks and events. Users should be able to easily distinguish between the calendar view and the todo list view. Adding tasks from the todo list to the calendar should not cause confusion but should remain neat and orderly. Users should be able to input and schedule tasks with minimal effort.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Security</strong></td>
+<td style="text-align: left;">User data should be protected during transmission and at rest using modern encryption protocols, especially for the enterprise version and all long-range versions, ensuring the security of personal and enterprise data without leaks and protecting user privacy.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Reliability</strong></td>
+<td style="text-align: left;">To ensure data integrity, in addition to the sync and cloud data storage features available in the subscribed personal and enterprise versions, the accuracy and retrieval of data saved on local devices should not be compromised.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Flexibility</strong></td>
+<td style="text-align: left;">Users should have the capability to customize the theme by specifying RGB values, enhancing personalization and improving accessibility for individuals with color vision deficiencies. The platform offers a configurable setting that allows users to select their preferred calendar layout, be it weekly or daily. Additionally, the default duration assigned to new tasks is fully adjustable, ensuring users can tailor their scheduling to fit their unique requirements.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Maintainability</strong></td>
+<td style="text-align: left;">There needs to be long-term maintenance of data information.Ensure that updates to the application can be rolled out without significant downtime or data migration issues.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Performance</strong></td>
+<td style="text-align: left;">The application needs to be responsive with quick response times, especially since it combines a calendar and to-do list, which are sensitive to time. The software needs to manage the relationship between overdue tasks and future tasks, which requires the software to focus on updating tasks.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="other-requirements" class="level1">
+<h1><strong>Other Requirements</strong></h1>
+<p><strong>Client Engagement:</strong><br>
+Keep the client involved throughout the development process for feedback and iterations on the product design and features.</p>
+<p><strong>Budgets:</strong><br>
+The total budget offered by DoMore Software Corp.&nbsp;is two million dollars. There is a million dollars for the mobile version of the application and another million upon completion of the desktop application.</p>
+<p><strong>Subscription:</strong><br>
+The personal use version is completely free for local devices, but does not include any synchronization updates or storage. Subscriptions are voluntary and require the customer’s consent. The business version needs to communicate with DoMore Software Corp.&nbsp;and is a paid service.</p>
+<p><strong>Appearance:</strong><br>
+The UI is expected to be modern, elegant and sleek appearance to attract the users. Users can choose dark mode or light mode with customizable color themes., but there is currently no option for theme selection. It is available for users to choose different colors for tasks by default.</p>
+</section>
+<section id="glossary" class="level1">
+<h1><strong>Glossary</strong></h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Task</th>
+<th style="text-align: left;">An entity for the todo list feature and will be assigned to different durations.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Sub-task</td>
+<td style="text-align: left;">Several breakdown parts for a major task</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Event</td>
+<td style="text-align: left;">An entity for the calendar feature. Scheduled activities that occur at a specific time, such as classes or meetings, as opposed to tasks.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Tag</td>
+<td style="text-align: left;">Keywords or phrases that can be attached to tasks to categorize them and facilitate filtering.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Time Window Filter</td>
+<td style="text-align: left;">Features in Dolendar that allow users to set specific time frames during which certain tagged tasks should be focused on.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Syncing</td>
+<td style="text-align: left;">Users’ data are stored on a cloud server, enabling access across multiple devices and collaboration with others.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">User Interface (UI)</td>
+<td style="text-align: left;">The interaction between the user and a digital device or software application, includes all the visual elements.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="assumptions-risks" class="level1">
+<h1><strong>Assumptions / Risks</strong></h1>
+<p>There is no server cost for the free personal use version. The paid version gives users’ syncing capabilities, DoMore Software hosts the cloud syncing service. Assuming the user has a basic understanding of to-do lists and digital calendars and is seeking productivity enhancements and solutions for procrastination through the application.</p>
+<p>The risks associated with Dolendar include potential financial risks due to market competition and whether the budget is sufficient. There are many calendar or to-do list applications on the market, including Google and Apple, so there is significant competition. Additionally, there is a risk associated with the users, who may not fully engage with the task management system. The most important risk stems from data, requiring robust security measures to prevent leaks. Dolendar involves personal privacy data and may contain confidential or proprietary documents from different companies.</p>
+</section>
+<section id="priorities-implementation-phases" class="level1">
+<h1><strong>Priorities / Implementation Phases</strong></h1>
+<p><strong>Timeline:</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">November 3rd, 2023</th>
+<th style="text-align: left;">Submission of the preliminary Dolendar System Requirements Specification document, excluding functional requirements and use cases.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">November 17th, 2023</td>
+<td style="text-align: left;">Completion of the Dolendar System Requirements Specification, inclusive of functional requirements and use cases.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">January 7th, 2024</td>
+<td style="text-align: left;">Launch of the initial prototype of Dolendar, with subsequent versions to be released through monthly iterations.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">November, 2024</td>
+<td style="text-align: left;">The release of the Dolendar mobile application.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">April, 2025</td>
+<td style="text-align: left;">The debut of the Dolendar desktop application.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Implementation:</strong><br>
+Mr.&nbsp;Dones emphasized that the prototype should have a new version updated monthly after the initial launch, and he also hopes to be involved in the design of the UI. The priority is to spend one year developing the application for iOS and Android systems on both mobile phones and tablets. Then, use the following six months to transition the mobile version to support desktop environments, including macOS, Windows, and Linux, allowing Dolendar to be used on desktop platforms as well.</p>
+</section>
+<section id="future-directions-and-expected-changes" class="level1">
+<h1><strong>Future Directions and Expected Changes</strong></h1>
+<p>The expected changes are to enhance team functionalities for task sharing, collaboration, and management. Beyond the current team features, more discussable and joinable functions will be endowed in the enterprise and individual subscription versions.</p>
+<p>Dolendar’s future direction is to update and refine some details of the software continuously. In the future, it may expand to provide users with more data for reference regarding their productivity and efficiency, as well as the extent of their procrastination. The metrics include graphs, rankings, and other metrics, as well as displays of each task’s completion status and more advanced reminders. The Dolendar platform anticipates future expansion and integration, supporting more systems and versions, as well as creating desktop quick-tips like Apple’s widgets. It also aims to support more external calendar synchronization, including Microsoft Outlook, but currently, it is only Apple Calendar and Google Calendar. Moreover, an essential part of the future direction is to consider supporting and aiding more people with disabilities in advancing accessibility.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
