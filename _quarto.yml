@@ -1,8 +1,8 @@
 project:
   type: website
-  output-dir: _site
+  output-dir: docs
   resources: 
-   - "media/**"
+    - "media/**"
 
 website:
   title: "Ruilin Wu"
