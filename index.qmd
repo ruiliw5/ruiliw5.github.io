@@ -39,7 +39,7 @@ My interests include Machine Learning, Educational Data Science, NLP for Writing
 ## Skills
 
 <div class="badges">
-  <span>R</span><span>Python</span><span>SQL</span><span>Java</span><span>Figma</span>
+  <span>R</span><span>Python</span><span>SQL</span><span>Java</span><span>Figma</span><span>CapCut</span>
 </div>
 
 </div>
