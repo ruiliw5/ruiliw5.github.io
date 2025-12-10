@@ -19,7 +19,7 @@ format: html
 ------------------------------------------------------------------------
 
 **UCI Undergraduate Research Symposium — Poster Finalist** — Irvine, CA\
-**Date:** June 16, 2025 · **Theme:** Human Experience and Expression\
+**Date:** May 16, 2025 · **Theme:** Human Experience and Expression\
 **Title:** *Examining the Impact of an AI-Powered Writing Platform in Upper-Division Engineering Courses*\
 [View poster](media/Poster.pdf)
 
