@@ -23,7 +23,7 @@ format: html
 **Title:** *Examining the Impact of an AI-Powered Writing Platform in Upper-Division Engineering Courses*\
 [View poster](media/Poster.pdf)
 
-**Initial findings (Spring 2024 cohort):** 
+**Initial findings (Spring 2024 data):** 
 
 - Higher-performing students engaged more frequently and wrote more concisely.\
 - Lower-performing students engaged less often but provided longer, more elaborate inputs per conversation.
