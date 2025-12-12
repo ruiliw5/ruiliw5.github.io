@@ -8,7 +8,7 @@ format: html
 **AAAS S-STEM Scholars Meeting** — San Diego, CA\
 **Dates:** October 2–4, 2025 · **Theme:** Social Science\
 **Title:** *Examining the Impact of an AI-Powered Writing Platform in Upper-Division Engineering Courses*\
-[View poster](media/poster2.pdf)
+[View poster](media/poster_2nd.pdf)
 
 **Expanded analysis across multi-quarter:** 
 
@@ -38,7 +38,7 @@ Advisor: Dr. Mark Warschauer
 -   **PapyrusAI (Jan 2025–Present):**\
     Data cleaning, exploratory analysis, and usage-pattern evaluation for an AI writing support system used across multiple course offerings and student populations.
 
--   **Converse to Learn (Jun 2024– Aug 2025):**\
+-   **Converse to Learn (Jun 2024– Sep 2025):**\
     Data collection and annotation for a study on how conversational agents shape student engagement and learning.
 
 **Impact:** Strengthened skills in educational data science, human–AI interaction, and quantitative research; collaborated with interdisciplinary teams to translate analyses into actionable insights for instruction and tool design.
