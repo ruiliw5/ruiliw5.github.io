@@ -3,6 +3,11 @@ title: "Research"
 format: html
 ---
 
+#### Publication 
+
+- Choi, J., **Wu, R.**, Tate, T., Tseng, W., Harnick-Shapiro, B., Yim, S., Warschauer, M. (October, 2025) Redistributing Cognition in AI-Supported Writing. International Conference of the Learning Sciences 2026 (ICLS26) [Paper]. 
+
+
 #### Poster Presentations
 
 **AAAS S-STEM Scholars Meeting** — San Diego, CA\
