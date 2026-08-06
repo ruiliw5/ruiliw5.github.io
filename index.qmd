@@ -5,20 +5,20 @@ toc: false
 page-navigation: false
 page-layout: full
 
-about: 
-  id: hero-heading 
+about:
+  id: hero-heading
   template: trestles
-  image-width: 50%
-  links: 
+  image-width: 180px
+  links:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/ruilin-wu/
     - icon: github
       text: GitHub
-      href: https://github.com/ruiliw5/coding-project/tree/Project-1 
+      href: https://github.com/ruiliw5/coding-project/tree/Project-1
     - icon: envelope
       text: Email
-      href: "mailto:ruiliw5@uci.edu"  
+      href: "mailto:ruilinw2@andrew.cmu.edu"
 
 format:
   html:
@@ -29,11 +29,27 @@ format:
 <div style="padding-left: 1.2rem;">
 ## About
 
-Hello!👋 I’m a fourth-year Data Science major (Informatics minor) at the University of California, Irvine🎓. My work focuses on learning analytics, AI-supported writing, and equitable EdTech: I analyze multi-quarter course datasets and translate findings into clear, actionable insights for instructors and researchers, with an emphasis on transparency, reproducibility, and equity.
+Hello! 👋 I’m a graduate student in the **M.S. in Learning Engineering program at Carnegie Mellon University’s School of Computer Science**, with a background in **Data Science and Informatics** from the University of California, Irvine. My work sits at the intersection of artificial intelligence, data science, learning research, and human-centered product design.
 
-At UCI’s Digital Learning Lab, I've been involved in both Converse to Learn project and Generative AI project🤖. I’m also a [**CP-LEADS Fellow**](https://sites.uci.edu/cpleads/) and a [**PALiISaDS Scholar**](https://www.paliisads.org/), experiences that strengthen my training in statistics, machine learning, and research communication. Outside academia, I serve as an HR Board Member for the Chinese Union at UCI, supporting event analytics, operations, and student engagement🤝. 
+At UCI’s Digital Learning Lab, I contributed to the **Converse to Learn** and **Generative AI in Education** projects. I built data workflows for AI interaction logs, developed a chat-intent classification framework for more than 4,000 messages, and applied statistical models to understand how learners engage with AI-supported tools. I also co-authored an accepted ICLS 2026 paper examining student behavior in an AI-supported writing environment. 🤖
 
-My interests include Machine Learning, Educational Data Science, NLP for Writing Support, Statistical Modeling, and Data Visualization📊 — especially building transparent, scalable, and human-centered data systems that turn real-world data into meaningful impact🔬.
+Beyond research, I have experience developing **LLM-powered applications**, including a retrieval-augmented educational assistant, and translating data into practical recommendations through my project management internship at BOUN Consulting. These experiences strengthened my ability to connect technical development with user needs, stakeholder goals, and real-world implementation.
+
+My interests include **large language models, retrieval-augmented generation, educational AI, NLP, statistical modeling, learning analytics, and AI product development**. I am especially interested in building responsible, transparent, and human-centered AI systems that turn complex data into meaningful products and experiences. 📊🔬
+
+## Honors & Fellowships
+
+- **Phi Beta Kappa**, University of California, Irvine, 2026  
+  Elected to the national academic honor society recognizing excellence in the liberal arts and sciences.
+
+- **CP-LEADS Research Fellow**, 2025  
+  Selected for a research fellowship focused on learning analytics, data science, and generative AI in education.
+
+- **PALiISaDS Scholar**, 2024–2026  
+  Selected for a scholarship and mentoring program supporting students in statistics and data science.
+
+- **Dean’s Honor List**, University of California, Irvine  
+  Recognized across multiple academic quarters.
 
 
 ## Skills
